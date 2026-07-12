@@ -25,17 +25,26 @@ export default function Navbar() {
           <div className="flex h-20 items-center justify-between rounded-[30px] bg-white px-4 sm:px-6 shadow-lg border border-gray-100/50">
 
             {/* 1. Left: Logo & Vertical Separator */}
-            <div className="flex items-center gap-4 sm:gap-6">
+            {/* <div className="flex items-center gap-4 sm:gap-6">
               <Link href="/" className="flex items-center shrink-0">
                 <Image
-                  src="/logo.webp"
-                  alt="VerdaAgro"
+                  // src="/logo.webp"
+                  alt="GreenGlobe"
                   width={140}
                   height={42}
                   priority
                   className="w-auto h-8 sm:h-10 object-contain"
                 />
               </Link>
+              <div className="hidden h-8 w-px bg-gray-200 md:block" />
+            </div> */}
+            <div className="flex items-center gap-4 sm:gap-6">
+              <Link href="/" className="flex items-center shrink-0">
+                <h1 className="text-2xl sm:text-3xl font-bold text-[#10551F] tracking-tight">
+                  Green<span className="text-[#69D34F]">Globe</span>
+                </h1>
+              </Link>
+
               <div className="hidden h-8 w-px bg-gray-200 md:block" />
             </div>
 
@@ -97,7 +106,7 @@ export default function Navbar() {
               <div className="flex items-center justify-between pb-6 border-b border-gray-100">
                 <Image
                   src="/logo.webp"
-                  alt="VerdaAgro"
+                  alt="GreenGlobe"
                   width={120}
                   height={36}
                   className="object-contain"

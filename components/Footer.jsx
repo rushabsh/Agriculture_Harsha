@@ -32,7 +32,7 @@ export default function Footer() {
 
         {/* Giant Overlapping Branding Text */}
         <h2 className="text-[14vw] sm:text-[12vw] font-bold tracking-tight text-[#fdf6d4] opacity-[0.85] select-none leading-none mb-[-25px] sm:mb-[-50px] md:mb-[-75px] transition-transform pointer-events-none text-center">
-          VerdaAgro
+          Greenglobe
         </h2>
 
         {/* Central Frosted Glass Dashboard Card */}
@@ -47,10 +47,10 @@ export default function Footer() {
                 </p>
                 <div className="space-y-2">
                   <a
-                    href="mailto:verda@mail.com"
+                    href="mailto:greenglobe@mail.com"
                     className="block text-xl sm:text-2xl md:text-3xl font-bold text-[#fdf6d4] hover:underline break-all sm:break-normal"
                   >
-                    verda@mail.com
+                    greenglobe@mail.com
                   </a>
                   <a
                     href="tel:+18001234657"

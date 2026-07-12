@@ -3,7 +3,7 @@ import Hero from "../components/Hero";
 import Brands from "../components/Brands";
 import About from "../components/About";
 import Services from "../components/Services";
-import Portfolio from "../components/Portfolio";
+// import Portfolio from "../components/Portfolio";
 import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
 // import AboutSection from "@/components/AboutSection";
