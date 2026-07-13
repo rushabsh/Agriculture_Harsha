@@ -72,7 +72,7 @@ export default function Hero() {
           <div className="flex items-center gap-2 pt-2">
             {/* Primary Discovery Anchor */}
             <a
-              href="#discover"
+              href="/contact"
               className="inline-flex items-center justify-center px-8 py-4 bg-[#69d34f] hover:bg-[#5bc242] text-white font-bold rounded-xl text-sm uppercase tracking-wider transition-colors duration-200 shadow-sm"
             >
               Discover More

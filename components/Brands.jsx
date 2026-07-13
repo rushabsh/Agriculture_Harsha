@@ -21,7 +21,7 @@ export default function Brands() {
         {/* Right Fade */}
         <div className="absolute right-0 top-0 z-10 h-full w-24 bg-gradient-to-l from-[#F8F6F1] to-transparent" />
 
-        <div className="flex w-max animate-marquee">
+        <div className="flex w-max animate-marquee p-6">
           {[...logos, ...logos].map((logo, index) => (
             <div
               key={index}

@@ -1,5 +1,6 @@
 import { Rethink_Sans, Playfair_Display } from "next/font/google";
 import "./globals.css";
+import MouseTracker from "@/components/MouseTracker";
 
 const rethinkSans = Rethink_Sans({
   variable: "--font-rethink-sans",
@@ -25,7 +26,10 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${rethinkSans.variable} ${playfairDisplay.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-[#ffffff] text-[#4E4E4E] font-sans">{children}</body>
+      <body className="min-h-full flex flex-col bg-[#ffffff] text-[#4E4E4E] font-sans">
+        <MouseTracker />
+        {children}
+      </body>
     </html>
   );
 }

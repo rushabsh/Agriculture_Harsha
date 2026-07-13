@@ -3,64 +3,59 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { ChevronDown, Search, ShoppingBasket, Menu, X } from "lucide-react";
 
 const navItems = [
-  { name: "Home", href: "/", dropdown: true },
-  { name: "Pages", href: "/pages", dropdown: true },
-  { name: "Blog", href: "/blog", dropdown: true },
-  { name: "Portfolio", href: "/portfolio", dropdown: true },
-  { name: "Shop", href: "/shop", dropdown: true },
-  { name: "Contacts", href: "/contact", dropdown: false },
+  { name: "Home", href: "/", dropdown: false },
+  { name: "About Us", href: "/about", dropdown: false },
+  { name: "Products", href: "/products", dropdown: false },
+  { name: "Industries We Serve", href: "/industries", dropdown: false },
+  { name: "Contact Us", href: "/contact", dropdown: false },
 ];
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   return (
     <>
       {/* Navbar Container: Flexible width matching desktop/mobile bounds */}
-      <header className="absolute w-[92%] sm:w-[85%] lg:w-[80%] max-w-7xl m-auto top-6 left-0 right-0 z-50">
+      <header className="absolute w-[100%] sm:w-[100%] lg:w-[100%] m-auto left-0 right-0 z-[110]">
         <div className="w-full">
-          <div className="flex h-20 items-center justify-between rounded-[30px] bg-white px-4 sm:px-6 shadow-lg border border-gray-100/50">
+          <div className="flex h-24 items-center justify-between bg-white px-4 sm:px-6 shadow-lg border border-gray-100/50">
 
             {/* 1. Left: Logo & Vertical Separator */}
-            {/* <div className="flex items-center gap-4 sm:gap-6">
+            <div className="flex items-center gap-4 sm:gap-6">
               <Link href="/" className="flex items-center shrink-0">
                 <Image
-                  // src="/logo.webp"
+                  src="/logo.png"
                   alt="GreenGlobe"
                   width={140}
                   height={42}
                   priority
-                  className="w-auto h-8 sm:h-10 object-contain"
+                  className="w-auto h-24 sm:h-24 object-contain"
                 />
               </Link>
-              <div className="hidden h-8 w-px bg-gray-200 md:block" />
-            </div> */}
-            <div className="flex items-center gap-4 sm:gap-6">
-              <Link href="/" className="flex items-center shrink-0">
-                <h1 className="text-2xl sm:text-3xl font-bold text-[#10551F] tracking-tight">
-                  Green<span className="text-[#69D34F]">Globe</span>
-                </h1>
-              </Link>
-
               <div className="hidden h-8 w-px bg-gray-200 md:block" />
             </div>
 
             {/* 2. Center: Desktop Navigation Menu */}
             <nav className="hidden lg:flex items-center gap-1 xl:gap-2">
-              {navItems.map((item, index) => (
-                <div key={index} className="relative group">
-                  <Link
-                    href={item.href}
-                    className={`flex items-center gap-1.5 rounded-full px-4 xl:px-5 py-2.5 text-[15px] font-medium transition-all duration-300 hover:bg-[#F8F6F2] ${item.name === "Home" ? "bg-[#F8F6F2] text-black" : "text-gray-700 hover:text-black"
-                      }`}
-                  >
-                    {item.name}
-                  </Link>
-                </div>
-              ))}
+              {navItems.map((item, index) => {
+                const isActive = item.href === "/" ? pathname === "/" : pathname === item.href;
+                return (
+                  <div key={index} className="relative group">
+                    <Link
+                      href={item.href}
+                      className={`flex items-center gap-1.5 rounded-full px-4 xl:px-5 py-2.5 text-[15px] font-medium transition-all duration-300 hover:bg-[#F8F6F2] ${isActive ? "bg-[#F8F6F2] text-black font-bold" : "text-gray-700 hover:text-black"
+                        }`}
+                    >
+                      {item.name}
+                    </Link>
+                  </div>
+                );
+              })}
             </nav>
 
             {/* 3. Right Side: Utility Icons, Action Button & Mobile Burger */}
@@ -92,7 +87,7 @@ export default function Navbar() {
       {/* 4. Responsive Mobile Sidebar Drawer Overlay */}
       {/* ========================================================================= */}
       {isMobileMenuOpen && (
-        <div className="fixed inset-0 z-[100] lg:hidden">
+        <div className="fixed inset-0 z-[200] lg:hidden">
           {/* Backdrop Blur Layer */}
           <div
             onClick={() => setIsMobileMenuOpen(false)}
@@ -105,7 +100,7 @@ export default function Navbar() {
               {/* Header Container Inside Drawer */}
               <div className="flex items-center justify-between pb-6 border-b border-gray-100">
                 <Image
-                  src="/logo.webp"
+                  src="/logo.png"
                   alt="GreenGlobe"
                   width={120}
                   height={36}
@@ -122,20 +117,23 @@ export default function Navbar() {
 
               {/* Vertical Nav Stack */}
               <nav className="flex flex-col gap-2 mt-6">
-                {navItems.map((item, index) => (
-                  <Link
-                    key={index}
-                    href={item.href}
-                    onClick={() => setIsMobileMenuOpen(false)}
-                    className={`flex items-center justify-between w-full px-4 py-3 rounded-xl text-[16px] font-medium transition-colors ${item.name === "Home"
-                      ? "bg-[#F8F6F2] text-black"
-                      : "text-gray-700 hover:bg-gray-50 hover:text-black"
-                      }`}
-                  >
-                    <span>{item.name}</span>
-                    {item.dropdown && <ChevronDown className="w-4 h-4 text-gray-400" />}
-                  </Link>
-                ))}
+                {navItems.map((item, index) => {
+                  const isActive = item.href === "/" ? pathname === "/" : pathname === item.href;
+                  return (
+                    <Link
+                      key={index}
+                      href={item.href}
+                      onClick={() => setIsMobileMenuOpen(false)}
+                      className={`flex items-center justify-between w-full px-4 py-3 rounded-xl text-[16px] font-medium transition-colors ${isActive
+                        ? "bg-[#F8F6F2] text-black font-bold"
+                        : "text-gray-700 hover:bg-gray-50 hover:text-black"
+                        }`}
+                    >
+                      <span>{item.name}</span>
+                      {item.dropdown && <ChevronDown className="w-4 h-4 text-gray-400" />}
+                    </Link>
+                  );
+                })}
               </nav>
             </div>
 
