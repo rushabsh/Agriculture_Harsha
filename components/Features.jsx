@@ -31,7 +31,7 @@ export default function Features() {
                         {/* CTA Interaction Row */}
                         <div className="flex items-center gap-1.5 pt-2">
                             <a
-                                href="#solutions"
+                                href="/contact"
                                 className="inline-flex items-center justify-center px-6 py-3.5 bg-[#7ce052] hover:bg-[#6bd041] text-white font-bold rounded-xl text-sm uppercase tracking-wider transition-colors shadow-xs"
                             >
                                 Get Solutions

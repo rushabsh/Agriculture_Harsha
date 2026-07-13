@@ -46,7 +46,7 @@ export default function AboutFuture() {
             {/* Action CTA Buttons */}
             <div className="flex items-center gap-1.5 pt-2">
               <a
-                href="#about-more"
+                href="/about"
                 className="inline-flex items-center justify-center px-6 py-3.5 bg-[#5BC242] hover:bg-[#4ba834] text-white font-bold rounded-xl text-sm transition-colors shadow-xs"
               >
                 ABOUT MORE

@@ -43,27 +43,34 @@ export default function Footer() {
             <div className="md:col-span-5 flex flex-col justify-between space-y-6 md:space-y-8">
               <div className="space-y-4 md:space-y-6">
                 <p className="text-white font-medium text-base md:text-lg max-w-sm leading-relaxed">
-                  Driven by passion. Grounded in purpose. Focused on results.
+                  D-503,Pristine Pronext, Survey no-190, Wakad , Pune. Pin-411057
                 </p>
                 <div className="space-y-2">
                   <a
-                    href="mailto:greenglobe@mail.com"
+                    href="mailto:greenglobeagrochemical@gmail.com"
                     className="block text-xl sm:text-2xl md:text-3xl font-bold text-[#fdf6d4] hover:underline break-all sm:break-normal"
                   >
-                    greenglobe@mail.com
+                    greenglobeagrochemical@gmail.com
                   </a>
                   <a
-                    href="tel:+18001234657"
+                    href="tel:+917261983131"
                     className="block text-xl sm:text-2xl md:text-3xl font-bold text-white hover:text-[#fdf6d4] transition-colors"
                   >
-                    +1 800 123 46 57
+                    +91 7261983131
+                  </a>
+
+                  <a
+                    href="tel:+919325466881"
+                    className="block text-xl sm:text-2xl md:text-3xl font-bold text-white hover:text-[#fdf6d4] transition-colors"
+                  >
+                    +91 9325466881
                   </a>
                 </div>
               </div>
 
               {/* Pill Social Tags */}
               <div className="flex flex-wrap gap-2 pt-2 md:pt-4">
-                {['Instagram', 'Twitter', 'Facebook', 'Linkedin'].map((social) => (
+                {['Instagram', 'Facebook'].map((social) => (
                   <a
                     key={social}
                     href="#"
@@ -79,13 +86,19 @@ export default function Footer() {
             <div className="md:col-span-3 border-t md:border-t-0 md:border-l border-white/10 pt-6 md:pt-0 md:pl-6 lg:pl-12 flex flex-col">
               <h3 className="text-white font-bold text-base md:text-lg mb-4 md:mb-6">Useful Links</h3>
               <nav className="grid grid-cols-2 gap-3 md:flex md:flex-col md:space-y-3">
-                {['Company', 'Services', 'Features', 'FAQs', 'Getting Started'].map((link) => (
+                {[
+                  { name: "Home", href: "/" },
+                  { name: "About Us", href: "/about" },
+                  { name: "Products", href: "/products" },
+                  { name: "Industries", href: "/industries" },
+                  { name: "Contact Us", href: "/contact" },
+                ].map((link) => (
                   <Link
-                    key={link}
-                    href="#"
+                    key={link.name}
+                    href={link.href}
                     className="text-white/70 hover:text-[#fdf6d4] text-sm font-medium transition-colors w-fit"
                   >
-                    {link}
+                    {link.name}
                   </Link>
                 ))}
               </nav>
@@ -113,7 +126,7 @@ export default function Footer() {
 
               {/* Dynamic Legal Signature Row inside the frame */}
               <div className="text-[11px] text-white/40 font-medium pt-2 md:pt-4">
-                © {new Date().getFullYear()} VerdaAgro by WebGeniusLab. All Rights Reserved
+                © {new Date().getFullYear()} Green Globe. All Rights Reserved
               </div>
             </div>
 
