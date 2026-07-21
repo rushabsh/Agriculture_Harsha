@@ -13,7 +13,7 @@ export default function AgricultureIntelligence() {
                     <div className="lg:col-span-6 space-y-6">
                         <div className="relative w-full h-[320px] rounded-3xl overflow-hidden shadow-sm">
                             <Image
-                                src="/feature-img-02.jpg"
+                                src="/about-img-2.webp"
                                 alt="Farmer harvesting strawberries in greenhouse"
                                 fill
                                 className="object-cover"

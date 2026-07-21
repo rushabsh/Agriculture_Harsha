@@ -8,37 +8,37 @@ export default function Portfolio() {
     {
       title: "Seeds of Change",
       tags: ["Agriculture", "Harvesting"],
-      img: "https://wgl-dsites.net/verdaagro/wp-content/uploads/2025/08/pf-1-1520x1240.webp"
+      img: "/indian-farmer-harvest.jpg"
     },
     {
       title: "Farming the Future",
       tags: ["Crop", "Harvesting"],
-      img: "https://wgl-dsites.net/verdaagro/wp-content/uploads/2025/08/pf-2-1520x1240.webp"
+      img: "/feature-img-01.jpg"
     },
     {
       title: "Growing with Results",
       tags: ["Agriculture", "Organic"],
-      img: "https://wgl-dsites.net/verdaagro/wp-content/uploads/2025/08/pf-3-1520x1240.webp"
+      img: "/about-img-1.jpg"
     },
     {
       title: "Real Impact, Real Yields",
       tags: ["Harvesting", "Organic"],
-      img: "https://wgl-dsites.net/verdaagro/wp-content/uploads/2025/08/pf-4-1520x1240.webp"
+      img: "/about-img-2.jpg"
     },
     {
       title: "Tech Meets Soil",
       tags: ["Harvesting", "Organic"],
-      img: "https://wgl-dsites.net/verdaagro/wp-content/uploads/2025/08/pf-5-1520x1240.webp"
+      img: "/feature-img-02.jpg"
     },
     {
       title: "Better Crops, Better Lives",
       tags: ["Agriculture", "Organic"],
-      img: "https://wgl-dsites.net/verdaagro/wp-content/uploads/2025/08/pf-6-1520x1240.webp"
+      img: "/video-image-2.jpg"
     },
     {
       title: "From Struggle to Strength",
       tags: ["Crop", "Farming"],
-      img: "https://wgl-dsites.net/verdaagro/wp-content/uploads/2025/08/pf-7-1520x1240.webp"
+      img: "/indian-farmer-irrigation.jpg"
     }
   ];
 

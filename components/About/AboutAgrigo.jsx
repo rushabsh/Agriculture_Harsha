@@ -4,13 +4,6 @@ import Link from 'next/link';
 import { ArrowUpRight, Target, Globe, Award, Sparkles } from 'lucide-react';
 
 export default function AgrigoRedesign() {
-    const avatars = [
-        { id: 1, src: 'https://images.unsplash.com/photo-1534528741775-w=100&auto=format&fit=crop&q=80' },
-        { id: 2, src: 'https://images.unsplash.com/photo-1507003211169-w=100&auto=format&fit=crop&q=80' },
-        { id: 3, src: 'https://images.unsplash.com/photo-1494790108377-w=100&auto=format&fit=crop&q=80' },
-        { id: 4, src: 'https://images.unsplash.com/photo-1500648767791-w=100&auto=format&fit=crop&q=80' },
-    ];
-
     const pillars = [
         {
             title: "Our Mission",
@@ -52,7 +45,7 @@ export default function AgrigoRedesign() {
                             style={{ borderRadius: '10px' }}
                         >
                             <Image
-                                src="/about-img-2.jpg"
+                                src="/feature-img-02.webp"
                                 alt="Farmer checking crops"
                                 fill
                                 className="object-cover"
@@ -104,7 +97,7 @@ export default function AgrigoRedesign() {
                             style={{ borderRadius: '10px' }}
                         >
                             <Image
-                                src="/about-img-1.jpg"
+                                src="/feature-img-01.webp"
                                 alt="Tractor in green field"
                                 fill
                                 className="object-cover"

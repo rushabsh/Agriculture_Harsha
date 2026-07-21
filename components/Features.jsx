@@ -48,7 +48,7 @@ export default function Features() {
                     <div className="lg:col-span-7 flex justify-center lg:justify-end">
                         <div className="relative w-full max-w-[580px] aspect-[16/10] overflow-hidden rounded-[24px] border border-white/10 shadow-xl">
                             <Image
-                                src="/feature-img-01.jpg"
+                                src="/feature-img-02.webp"
                                 alt="Farmers reviewing tablet data in a crop field"
                                 fill
                                 className="object-cover object-center transition-transform duration-700 hover:scale-[1.01]"
@@ -67,19 +67,12 @@ export default function Features() {
                     <div className="lg:col-span-4 flex justify-center lg:justify-start">
                         <div className="w-full max-w-[340px] aspect-[16/10] relative rounded-[20px] overflow-hidden shadow-lg group cursor-pointer border border-white/10">
                             <Image
-                                src="/feature-img-02.jpg"
+                                src="/feature-img-01.webp"
                                 alt="Greenhouse worker inspecting plants"
                                 fill
                                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 33vw, 25vw"
                                 className="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
                             />
-
-                            {/* Center Floating White Play Button Ring Accent */}
-                            <div className="absolute inset-0 bg-black/10 flex items-center justify-center transition-colors group-hover:bg-black/20 z-10">
-                                <div className="w-12 h-12 rounded-full bg-white text-[#0b6e39] flex items-center justify-center shadow-md transform group-hover:scale-110 transition-transform duration-300">
-                                    <Play className="w-5 h-5 fill-current ml-0.5" />
-                                </div>
-                            </div>
                         </div>
                     </div>
 

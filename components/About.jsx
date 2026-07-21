@@ -14,7 +14,7 @@ export default function AboutFuture() {
           <div className="lg:col-span-3 order-2 lg:order-1 flex justify-center lg:justify-start">
             <div className="w-full max-w-[320px] aspect-[4/5] relative rounded-[20px] overflow-hidden shadow-sm">
               <Image
-                src="/about-img-1.jpg" // Left image reference
+                src="/about-img-1.webp" // Left image reference
                 alt="Farmer checking crops closely"
                 fill
                 priority
@@ -94,17 +94,13 @@ export default function AboutFuture() {
           <div className="lg:col-span-4 order-3 flex justify-center lg:justify-end relative group">
             <div className="w-full max-w-[420px] aspect-[4/5] lg:aspect-[3.8/5] relative rounded-[20px] overflow-hidden shadow-sm">
               <Image
-                src="/about-img-2.jpg" // Right image reference
+                src="/about-img-2.webp" // Right image reference
                 alt="Researcher inspecting lush green crops"
                 fill
                 priority
                 sizes="(max-width: 768px) 100vw, 420px"
                 className="object-cover object-center transform group-hover:scale-[1.01] transition-transform duration-500"
               />
-              {/* Small green tag accent floating on right image matching image detail */}
-              <div className="absolute bottom-4 right-4 bg-[#5BC242] text-white text-[10px] font-bold px-2 py-1 rounded-md shadow-xs">
-                8%
-              </div>
             </div>
           </div>
 

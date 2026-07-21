@@ -7,36 +7,36 @@ const servicesData = [
   {
     title: "Farm Management",
     category: "Management",
-    desc: "We promote eco-friendly agricultural practices that protect",
-    image: "https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&w=400&h=250&q=80",
+    desc: "We promote eco-friendly agricultural practices that protect soil health and increase long-term crop yield for Indian farmers.",
+    image: "/indian-farmer-harvest.jpg",
     isActive: false,
   },
   {
     title: "Agri-Tech Solutions",
     category: "Agri-Tech Solutions",
-    desc: "We promote eco-friendly agricultural practices that protect",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=400&h=250&q=80",
-    isActive: true, // Distinct green card matching image
-  },
-  {
-    title: "Agri-Tech Solutions",
-    category: "Agri-Tech Solutions",
-    desc: "We promote eco-friendly agricultural practices that protect",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=400&h=250&q=80",
-    isActive: false,
+    desc: "Empowering Indian farmers with smart tools, field monitoring sensors, and precision input planning.",
+    image: "/about-img-2.webp",
+    isActive: true,
   },
   {
     title: "Green Farming",
     category: "Green Farming",
-    desc: "We promote eco-friendly agricultural practices that protect",
-    image: "https://images.unsplash.com/photo-1516253593875-bd7ba052fbc5?auto=format&fit=crop&w=400&h=250&q=80",
+    desc: "Sustainable organic farming methods tailored for Indian climate conditions and crop varieties.",
+    image: "/feature-img-02.webp",
     isActive: false,
   },
   {
-    title: "Wheat Farming",
+    title: "Wheat & Grain Farming",
     category: "Wheat Farming",
-    desc: "We promote eco-friendly agricultural practices that protect",
-    image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=400&h=250&q=80",
+    desc: "Providing high-purity nutrients and growth support for Indian wheat and paddy cultivators.",
+    image: "/breadcum-1.webp",
+    isActive: false,
+  },
+  {
+    title: "Smart Drip Irrigation",
+    category: "Irrigation Care",
+    desc: "Automated moisture sensors and efficient drip systems for Indian agricultural fields.",
+    image: "/indian-farmer-irrigation.jpg",
     isActive: false,
   }
 ];

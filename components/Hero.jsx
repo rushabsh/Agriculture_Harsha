@@ -2,11 +2,6 @@ import React from 'react';
 import Image from 'next/image';
 
 export default function Hero() {
-  const avatars = [
-    "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&h=100&q=80",
-    "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&h=100&q=80",
-    "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&h=100&q=80"
-  ];
 
   return (
     <section className="relative w-full min-h-screen flex flex-col justify-center px-6 sm:px-12 lg:px-24 overflow-hidden select-none bg-[#10551f]">
@@ -75,7 +70,7 @@ export default function Hero() {
               href="/contact"
               className="inline-flex items-center justify-center px-8 py-4 bg-[#69d34f] hover:bg-[#5bc242] text-white font-bold rounded-xl text-sm uppercase tracking-wider transition-colors duration-200 shadow-sm"
             >
-              Discover More
+              Contact
             </a>
             {/* Arrow Badge Detail */}
             <div className="p-4 bg-[#69d34f] text-white rounded-xl flex items-center justify-center">
@@ -83,50 +78,6 @@ export default function Hero() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
               </svg>
             </div>
-          </div>
-        </div>
-
-        {/* Right Block: Floating Review Social Proof Widget */}
-        <div className="bg-white rounded-[24px] p-6 shadow-[0_20px_40px_rgba(0,0,0,0.12)] w-fit flex flex-col gap-4 border border-gray-100/50 self-start lg:self-auto ml-0 lg:ml-auto">
-          {/* Avatar Stack Row */}
-          <div className="flex items-center">
-            {avatars.map((src, i) => (
-              <div
-                key={i}
-                className={`relative w-10 h-10 rounded-full overflow-hidden border-2 border-white shadow-xs ${i > 0 ? '-ml-3' : ''}`}
-              >
-                <Image
-                  src={src}
-                  alt="User Reviewer Avatar"
-                  fill
-                  className="object-cover"
-                  sizes="48px"
-                />
-              </div>
-            ))}
-            {/* Plus Action Tag Counter */}
-            <div className="w-10 h-10 rounded-full bg-[#69d34f] text-white flex items-center justify-center text-sm font-bold border-2 border-white shadow-xs -ml-3">
-              +
-            </div>
-          </div>
-
-          {/* Rating Matrix */}
-          <div className="space-y-1">
-            <div className="flex items-center gap-0.5 text-yellow-400">
-              {[...Array(4)].map((_, i) => (
-                <svg key={i} className="w-4 h-4 fill-current" viewBox="0 0 24 24">
-                  <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-                </svg>
-              ))}
-              {/* Distinctive Fractional Final Star */}
-              <svg className="w-4 h-4 fill-[#69d34f]" viewBox="0 0 24 24">
-                <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-              </svg>
-            </div>
-
-            <p className="text-[10px] md:text-xs font-bold text-gray-900 tracking-wider uppercase pt-0.5">
-              Trusted by 2k+ Customers
-            </p>
           </div>
         </div>
 

@@ -8,38 +8,38 @@ export default function WhyChooseUs() {
     {
       id: "premium-quality",
       title: "Premium Quality Products",
-      desc: "We adhere to the highest industry benchmarks, ensuring that every product delivered meets rigorous quality standards and fulfills your operational expectations perfectly.",
-      img: "https://wgl-dsites.net/verdaagro/wp-content/uploads/2025/08/accordion-1-1.webp"
+      desc: "We adhere to the highest industry benchmarks, ensuring that every product delivered meets rigorous quality standards for Indian agricultural demands.",
+      img: "/about-img-2.webp"
     },
     {
       id: "bulk-supply",
       title: "Bulk Supply Capability",
-      desc: "Equipped with extensive infrastructure, we easily accommodate high-volume scaling demands, offering stable, large-capacity supply tracks for commercial agricultural ventures.",
-      img: "https://wgl-dsites.net/verdaagro/wp-content/uploads/2025/08/accordion-1-2.webp"
+      desc: "Equipped with extensive infrastructure, we easily accommodate high-volume scaling demands, offering stable supply lines for Indian farming networks.",
+      img: "/indian-farmer-harvest.jpg"
     },
     {
       id: "competitive-pricing",
       title: "Competitive Pricing",
-      desc: "Maximize your market overheads. We provide transparent, value-driven, and competitive pricing frameworks optimized to fit both small-scale budgets and enterprise projects.",
-      img: "https://wgl-dsites.net/verdaagro/wp-content/uploads/2025/08/accordion-1-3.webp"
+      desc: "Maximize your market overheads with transparent, value-driven pricing frameworks designed to fit Indian farmers and enterprise projects.",
+      img: "/hero-img-1.webp"
     },
     {
       id: "timely-delivery",
       title: "Timely Delivery & Dispatch",
-      desc: "Minimize downtime with our efficient logistical pipelines. We guarantee strict timeline management, giving you secure, fast dispatch and prompt, predictable arrivals.",
-      img: "https://wgl-dsites.net/verdaagro/wp-content/uploads/2025/08/accordion-1-1.webp"
+      desc: "Minimize downtime with efficient logistical pipelines across India, guaranteeing strict timeline management and prompt arrivals.",
+      img: "/video-image-2.jpg"
     },
     {
       id: "reliable-sourcing",
       title: "Reliable Sourcing & Technical Support",
-      desc: "Gain peace of mind through vetted sourcing links paired with specialized technical support. Our dedicated team is available to help solve real-time application or supply questions.",
-      img: "https://wgl-dsites.net/verdaagro/wp-content/uploads/2025/08/accordion-1-2.webp"
+      desc: "Gain peace of mind through vetted sourcing links paired with specialized technical support for Indian agriculture.",
+      img: "/feature-img-01.webp"
     },
     {
       id: "product-availability",
       title: "Consistent Product Availability",
-      desc: "Avoid supply shortages. We maintain optimized inventory buffers year-round to guarantee that critical resources are constantly available when you need them.",
-      img: "https://wgl-dsites.net/verdaagro/wp-content/uploads/2025/08/accordion-1-3.webp"
+      desc: "Avoid supply shortages with optimized inventory buffers year-round to guarantee essential resources are constantly available for Indian crops.",
+      img: "/indian-farmer-irrigation.jpg"
     }
   ];
 
