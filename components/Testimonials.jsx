@@ -4,24 +4,24 @@ import { Sprout, ArrowLeft, ArrowRight, Quote } from 'lucide-react'; // Make sur
 
 const testimonialsData = [
   {
-    quote: "We promote eco-friendly agricultural practices that protect soil health and increase long-term crop performance seamlessly.",
-    name: "Quinn Perez Jordan",
-    role: "Founder CEO"
+    quote: "Greenglobe's organic input solutions have protected our soil health and significantly increased long-term crop performance across Maharashtra.",
+    name: "Ramesh Patil",
+    role: "Progressive Farmer, Maharashtra"
   },
   {
     quote: "We promote eco-friendly agricultural practices that maximize input value while keeping the local biodiversity completely intact.",
-    name: "Jessica Reed",
-    role: "Co Founder"
+    name: "Sunita Sharma",
+    role: "Agri-Cooperative Director, MP"
   },
   {
-    quote: "We promote eco-friendly agricultural practices that bring commercial security, transparency, and sustainable output scales.",
-    name: "David Brown",
-    role: "Farm Manager"
+    quote: "The raw material quality and timely delivery have brought commercial security and sustainable yield growth to our farmlands.",
+    name: "Gurpreet Singh",
+    role: "Wheat Cultivator, Punjab"
   },
   {
-    quote: "Greenglobe has completely transformed how we monitor our crop metrics and execute resource distribution tracks.",
-    name: "Sarah Jenkins",
-    role: "Operations Director"
+    quote: "Greenglobe has completely transformed how we monitor our crop metrics and execute resource distribution across our fields.",
+    name: "Rajesh Kumar",
+    role: "Farm Operations Lead, Haryana"
   }
 ];
 
