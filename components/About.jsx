@@ -14,7 +14,7 @@ export default function AboutFuture() {
           <div className="lg:col-span-3 order-2 lg:order-1 flex justify-center lg:justify-start">
             <div className="w-full max-w-[320px] aspect-[4/5] relative rounded-[20px] overflow-hidden shadow-sm">
               <Image
-                src="/about-img-1.webp" // Left image reference
+                src="/maha-farmer-1.avif" // Left image reference
                 alt="Farmer checking crops closely"
                 fill
                 priority
@@ -94,7 +94,7 @@ export default function AboutFuture() {
           <div className="lg:col-span-4 order-3 flex justify-center lg:justify-end relative group">
             <div className="w-full max-w-[420px] aspect-[4/5] lg:aspect-[3.8/5] relative rounded-[20px] overflow-hidden shadow-sm">
               <Image
-                src="/about-img-2.webp" // Right image reference
+                src="/maha-farmer-2.avif" // Right image reference
                 alt="Researcher inspecting lush green crops"
                 fill
                 priority
