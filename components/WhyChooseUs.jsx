@@ -9,7 +9,7 @@ export default function WhyChooseUs() {
       id: "premium-quality",
       title: "Premium Quality Products",
       desc: "We adhere to the highest industry benchmarks, ensuring that every product delivered meets rigorous quality standards for Indian agricultural demands.",
-      img: "/about-img-2.webp"
+      img: "/maha-farmer-6.avif"
     },
     {
       id: "bulk-supply",
@@ -27,7 +27,7 @@ export default function WhyChooseUs() {
       id: "timely-delivery",
       title: "Timely Delivery & Dispatch",
       desc: "Minimize downtime with efficient logistical pipelines across India, guaranteeing strict timeline management and prompt arrivals.",
-      img: "/video-image-2.jpg"
+      img: "/maha-farmer-5.avif"
     },
     {
       id: "reliable-sourcing",

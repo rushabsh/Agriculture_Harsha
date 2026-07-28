@@ -15,7 +15,7 @@ const servicesData = [
     title: "Agri-Tech Solutions",
     category: "Agri-Tech Solutions",
     desc: "Empowering Indian farmers with smart tools, field monitoring sensors, and precision input planning.",
-    image: "/about-img-2.webp",
+    image: "/maha-farmer-3.avif",
     isActive: true,
   },
   {
@@ -29,7 +29,7 @@ const servicesData = [
     title: "Wheat & Grain Farming",
     category: "Wheat Farming",
     desc: "Providing high-purity nutrients and growth support for Indian wheat and paddy cultivators.",
-    image: "/breadcum-1.webp",
+    image: "/maha-farmer-2.avif",
     isActive: false,
   },
   {
