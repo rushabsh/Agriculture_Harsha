@@ -28,7 +28,7 @@ export default function Hero() {
       />
 
       {/* 3. Foreground Layer: Transparent Indian Farmer Cutout */}
-      <div className="absolute inset-x-0 bottom-0 top-16 flex items-end justify-center z-[20] pointer-events-none">
+      {/* <div className="absolute inset-x-0 bottom-0 top-16 flex items-end justify-center z-[20] pointer-events-none">
         <div className="relative w-full max-w-[720px] sm:max-w-[780px] h-[85%] sm:h-[90%] md:h-[95%]">
           <Image
             src="/hero-img-1.png" // Indian Farmer Cutout image in public/
@@ -39,7 +39,7 @@ export default function Hero() {
             className="object-contain object-bottom drop-shadow-[0_15px_35px_rgba(0,0,0,0.35)]"
           />
         </div>
-      </div>
+      </div> */}
 
       {/* 4. Soft Bottom Glow Overlay */}
       <div
