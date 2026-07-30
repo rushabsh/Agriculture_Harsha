@@ -8,7 +8,7 @@ const servicesData = [
     title: "Farm Management",
     category: "Management",
     desc: "We promote eco-friendly agricultural practices that protect soil health and increase long-term crop yield for Indian farmers.",
-    image: "/indian-farmer-harvest.jpg",
+    image: "/h2-1.webp",
     isActive: false,
   },
   {
@@ -36,7 +36,7 @@ const servicesData = [
     title: "Smart Drip Irrigation",
     category: "Irrigation Care",
     desc: "Automated moisture sensors and efficient drip systems for Indian agricultural fields.",
-    image: "/indian-farmer-irrigation.jpg",
+    image: "/indian-farmer-irrigation.webp",
     isActive: false,
   }
 ];

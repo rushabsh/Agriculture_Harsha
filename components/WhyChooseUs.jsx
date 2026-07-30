@@ -15,7 +15,7 @@ export default function WhyChooseUs() {
       id: "bulk-supply",
       title: "Bulk Supply Capability",
       desc: "Equipped with extensive infrastructure, we easily accommodate high-volume scaling demands, offering stable supply lines for Indian farming networks.",
-      img: "/indian-farmer-harvest.jpg"
+      img: "/h2-1.webp"
     },
     {
       id: "competitive-pricing",
@@ -39,7 +39,7 @@ export default function WhyChooseUs() {
       id: "product-availability",
       title: "Consistent Product Availability",
       desc: "Avoid supply shortages with optimized inventory buffers year-round to guarantee essential resources are constantly available for Indian crops.",
-      img: "/indian-farmer-irrigation.jpg"
+      img: "/indian-farmer-irrigation.webp"
     }
   ];
 
