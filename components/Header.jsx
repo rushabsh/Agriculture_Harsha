@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { ChevronDown, Search, ShoppingBasket, Menu, X } from "lucide-react";
+import { ChevronDown, Menu, X } from "lucide-react";
 
 const navItems = [
   { name: "Home", href: "/", dropdown: false },
@@ -23,7 +23,7 @@ export default function Navbar() {
       {/* Navbar Container: Flexible width matching desktop/mobile bounds */}
       <header className="absolute w-[100%] sm:w-[100%] lg:w-[100%] m-auto left-0 right-0 z-[110]">
         <div className="w-full">
-          <div className="flex h-24 items-center justify-between bg-white px-4 sm:px-6 shadow-lg border border-gray-100/50">
+          <div className="flex h-24 items-center justify-between bg-white px-4 sm:px-6">
 
             {/* 1. Left: Logo & Vertical Separator */}
             <div className="flex items-center gap-4 sm:gap-6">
