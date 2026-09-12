@@ -28,10 +28,10 @@ export default function AgricultureIntelligence() {
                                     <span className="w-4 h-4 rounded-full bg-[#66CD4E] flex items-center justify-center text-[#0B5C2E] font-bold text-[10px]">✓</span>
                                 </div>
                                 <div className="mt-6 space-y-2">
-                                    <h4 className="font-bold text-lg">Drone Irrigation</h4>
+                                    <h4 className="font-bold text-lg">Quality-Assured Raw Materials
+                                    </h4>
                                     <p className="text-xs text-gray-300/90 leading-relaxed">
-                                        Flower beds and seasonal plant Arrangements to keep your
-                                    </p>
+                                        Reliable fertilizer raw materials sourced to meet consistent quality and production requirements.                                    </p>
                                 </div>
                             </div>
 
@@ -41,10 +41,10 @@ export default function AgricultureIntelligence() {
                                     <span className="w-4 h-4 rounded-full bg-[#66CD4E] flex items-center justify-center text-[#0B5C2E] font-bold text-[10px]">✓</span>
                                 </div>
                                 <div className="mt-6 space-y-2">
-                                    <h4 className="font-bold text-lg">AI Crop Monitoring</h4>
+                                    <h4 className="font-bold text-lg">Bulk Supply Solutions
+                                    </h4>
                                     <p className="text-xs text-gray-300/90 leading-relaxed">
-                                        Flower beds and seasonal plant Arrangements to keep your
-                                    </p>
+                                        Efficient bulk sourcing and supply for manufacturers, distributors, and agricultural businesses.                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -54,7 +54,7 @@ export default function AgricultureIntelligence() {
                     <div className="lg:col-span-6 space-y-6 lg:pl-6 lg:pt-4">
                         <div className="flex items-center gap-2 text-[#4FB845] font-bold text-xs uppercase tracking-wider">
                             <span className="w-3 h-3 text-[#4FB845]">🌿</span>
-                            AGRICULTURE INTELLIGENCE
+                            FERTILIZER GRADE SOLUTIONS
                         </div>
 
                         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0B5C2E] leading-tight">
@@ -62,8 +62,7 @@ export default function AgricultureIntelligence() {
                         </h2>
 
                         <p className="text-gray-600 text-sm leading-relaxed max-w-xl">
-                            We promote eco-friendly agricultural practices that protect Natural resources, enhance soil health,
-                        </p>
+                            We provide high-quality fertilizer grades and raw materials designed to support efficient nutrient management, healthy crop development, and improved agricultural productivity.                        </p>
 
                         {/* List with light green checkboxes */}
                         <div className="space-y-3 pt-2">
@@ -71,22 +70,26 @@ export default function AgricultureIntelligence() {
                                 <div className="w-5 h-5 rounded-full bg-[#66CD4E] flex items-center justify-center text-white text-[10px]">
                                     ✓
                                 </div>
-                                Equipment and Resource Management
+                                Consistent Quality & Reliable Supply
+
                             </div>
 
                             <div className="flex items-center gap-3 text-sm font-bold text-[#0B5C2E]">
                                 <div className="w-5 h-5 rounded-full bg-[#66CD4E] flex items-center justify-center text-white text-[10px]">
                                     ✓
                                 </div>
-                                Expert Guidance and Support
+                                Solutions for Diverse Crop Requirements
                             </div>
                         </div>
 
                         {/* Buttons */}
                         <div className="flex items-center gap-2 pt-4">
-                            <button className="bg-[#66CD4E] hover:bg-[#59b841] text-white font-bold text-xs px-6 py-3.5 rounded-xl uppercase tracking-wider transition-colors">
-                                Discover More
-                            </button>
+                            <a href="http://localhost:3000/contact">
+                                <button className="bg-[#66CD4E] hover:bg-[#59b841] text-white font-bold text-xs px-6 py-3.5 rounded-xl uppercase tracking-wider transition-colors">
+                                    EXPLORE OUR GRADES
+                                </button>
+                            </a>
+
                             <button className="bg-[#66CD4E] hover:bg-[#59b841] text-white p-3.5 rounded-xl transition-colors">
                                 <ArrowUpRight className="w-4 h-4" />
                             </button>
@@ -112,7 +115,7 @@ export default function AgricultureIntelligence() {
                 <div className="absolute bottom-10 right-6 md:right-12 lg:right-24 bg-white p-8 md:p-10 rounded-3xl shadow-xl max-w-md w-[calc(100%-3rem)] z-20">
                     <div className="space-y-6">
                         <h3 className="text-2xl md:text-3xl font-bold text-[#0B5C2E] leading-tight">
-                            Our Story In Modern Farming Excellence
+                            Driving Modern Agriculture Forward
                         </h3>
 
                         {/* Video Play Trigger Area */}

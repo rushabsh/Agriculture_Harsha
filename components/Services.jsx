@@ -5,37 +5,37 @@ import Image from 'next/image';
 
 const servicesData = [
   {
-    title: "Farm Management",
+    title: "Fertilizer Raw Materials",
     category: "Management",
-    desc: "We promote eco-friendly agricultural practices that protect soil health and increase long-term crop yield for Indian farmers.",
+    desc: "We source and supply high-quality fertilizer raw materials to support reliable and efficient fertilizer production for agricultural businesses.",
     image: "/h2-1.webp",
     isActive: false,
   },
   {
-    title: "Agri-Tech Solutions",
-    category: "Agri-Tech Solutions",
-    desc: "Empowering Indian farmers with smart tools, field monitoring sensors, and precision input planning.",
+    title: "Bulk Fertilizer Supply",
+    category: "GreenGlobe Solutions",
+    desc: "We provide dependable bulk fertilizer supplies with consistent quality, competitive pricing, and solutions tailored to large-volume agricultural requirements.",
     image: "/maha-farmer-3.avif",
     isActive: true,
   },
   {
-    title: "Green Farming",
-    category: "Green Farming",
-    desc: "Sustainable organic farming methods tailored for Indian climate conditions and crop varieties.",
+    title: "Fertilizer Import & Distribution",
+    category: "GreenGlobe Farming",
+    desc: "We import and distribute quality fertilizers and raw materials, connecting businesses with reliable agricultural inputs through an efficient supply network.",
     image: "/feature-img-02.webp",
     isActive: false,
   },
   {
-    title: "Wheat & Grain Farming",
+    title: "Customized Fertilizer Solutions",
     category: "Wheat Farming",
-    desc: "Providing high-purity nutrients and growth support for Indian wheat and paddy cultivators.",
+    desc: "We offer fertilizer solutions based on specific crop, soil, and agricultural requirements, helping businesses achieve better productivity and efficiency.",
     image: "/maha-farmer-2.avif",
     isActive: false,
   },
   {
-    title: "Smart Drip Irrigation",
+    title: "Sustainable Agriculture Solutions",
     category: "Irrigation Care",
-    desc: "Automated moisture sensors and efficient drip systems for Indian agricultural fields.",
+    desc: "We promote responsible fertilizer solutions that support efficient nutrient management, sustainable farming practices, and long-term agricultural growth.",
     image: "/indian-farmer-irrigation.webp",
     isActive: false,
   }
@@ -112,7 +112,7 @@ export default function Services() {
 
                 {/* Micro CTA Details Tag */}
                 <a
-                  href={`#details-${index}`}
+                  href="http://localhost:3000/products"
                   className={`inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-wider pt-2 ${item.isActive ? 'text-[#5BC242] hover:text-white' : 'text-[#0D4E22] hover:text-[#5BC242]'
                     }`}
                 >

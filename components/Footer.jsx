@@ -16,7 +16,7 @@ export default function Footer() {
       {/* Background Image Optimized Layer */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/footer-bg.webp" // Make sure this is in your public/ directory
+          src="/footer-bg.webp"
           alt="Hay bales background"
           fill
           priority
@@ -50,7 +50,7 @@ export default function Footer() {
                     href="mailto:greenglobeagrochemical@gmail.com"
                     className="block text-xl sm:text-2xl md:text-3xl font-bold text-[#fdf6d4] hover:underline break-all sm:break-normal"
                   >
-                    greenglobeagrochemical@gmail.com
+                    greenglobeimports@gmail.com
                   </a>
                   <a
                     href="tel:+917261983131"

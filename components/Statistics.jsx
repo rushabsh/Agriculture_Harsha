@@ -17,9 +17,9 @@ export default function Statistics() {
     },
     {
       percentage: "99%",
-      label: "Organic Farm",
+      label: "Fields Results",
       imgSrc: "/counter-img-3.png", // Place your fresh vegetables/oil cutout image here
-      alt: "Organic farm vegetables stat graphic",
+      alt: "Fields Results",
     },
   ];
 
@@ -82,8 +82,7 @@ export default function Statistics() {
         {/* ========================================================================= */}
         {/* LOWER BLOCK: Divider Line & Partnership Badges Grid */}
         {/* ========================================================================= */}
-        <div className="w-full space-y-10 pt-8">
-          {/* Section Divider Line with Center Text */}
+        {/* <div className="w-full space-y-10 pt-8">
           <div className="relative flex items-center justify-center w-full">
             <div
               className="absolute inset-0 flex items-center"
@@ -98,15 +97,12 @@ export default function Statistics() {
               </span>
             </div>
           </div>
-
-          {/* Vetted Corporate Green Brand Stamps Grid */}
           <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-4 w-full items-center justify-items-center">
             {brandLogos.map((logo, index) => (
               <div
                 key={index}
                 className="bg-[#FAF8F5] rounded-xl p-4 flex items-center justify-center h-20 border border-gray-100 shadow-2xs hover:bg-white hover:border-gray-200 transition-colors duration-200 cursor-pointer group w-full"
               >
-                {/* Centered inner container with absolute boundary size */}
                 <div className="relative h-10 w-full max-w-[120px]">
                   <Image
                     src={logo}
@@ -119,7 +115,7 @@ export default function Statistics() {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
