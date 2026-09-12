@@ -6,22 +6,22 @@ const testimonialsData = [
   {
     quote: "Greenglobe's organic input solutions have protected our soil health and significantly increased long-term crop performance across Maharashtra.",
     name: "Ramesh Patil",
-    role: "Progressive Farmer, Maharashtra"
+    role: "Progressive Farmer"
   },
   {
     quote: "We promote eco-friendly agricultural practices that maximize input value while keeping the local biodiversity completely intact.",
-    name: "Sunita Sharma",
-    role: "Agri-Cooperative Director, MP"
+    name: "Siddharth Jadhav",
+    role: "Progressive Farmer"
   },
   {
     quote: "The raw material quality and timely delivery have brought commercial security and sustainable yield growth to our farmlands.",
-    name: "Gurpreet Singh",
-    role: "Wheat Cultivator, Punjab"
+    name: "Akshay Shinde",
+    role: "Progressive Farmer"
   },
   {
     quote: "Greenglobe has completely transformed how we monitor our crop metrics and execute resource distribution across our fields.",
-    name: "Rajesh Kumar",
-    role: "Farm Operations Lead, Haryana"
+    name: "Sneha Deshmukh",
+    role: "Progressive Farmer"
   }
 ];
 
@@ -62,7 +62,7 @@ export default function Testimonials() {
             </div>
             {/* Section Main Heading */}
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0D4E22] tracking-tight leading-[1.15]">
-              Real Voices Behind Real <br /> Agricultural Growth
+              Growing Success <br /> Together
             </h2>
           </div>
 

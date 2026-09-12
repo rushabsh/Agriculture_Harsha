@@ -20,11 +20,11 @@ export default function Features() {
                             {/* Tag/Badge Element */}
                             <div className="flex items-center gap-2 text-[#7ce052] font-bold text-xs uppercase tracking-widest">
                                 <Sprout className="w-4 h-4" />
-                                <span>Agriculture Features</span>
+                                <span>Agriculture Fertilizer</span>
                             </div>
                             {/* Main Headline */}
                             <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight leading-[1.1] text-white">
-                                High Quality <br /> Features for Modern <br /> Farming Needs
+                                High Quality <br /> Fertilizer for Modern <br /> Farming Needs
                             </h2>
                         </div>
 
@@ -34,7 +34,7 @@ export default function Features() {
                                 href="/contact"
                                 className="inline-flex items-center justify-center px-6 py-3.5 bg-[#7ce052] hover:bg-[#6bd041] text-white font-bold rounded-xl text-sm uppercase tracking-wider transition-colors shadow-xs"
                             >
-                                Get Solutions
+                                Get In Touch
                             </a>
                             <div className="p-3.5 bg-[#7ce052] text-white rounded-xl flex items-center justify-center">
                                 <svg className="w-4 h-4 transform rotate-45" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
@@ -85,9 +85,9 @@ export default function Features() {
                                 <Plane className="w-6 h-6 stroke-[1.8]" />
                             </div>
                             <div className="space-y-1">
-                                <h3 className="text-lg font-bold tracking-tight">Smart Equipment Integration</h3>
+                                <h3 className="text-lg font-bold tracking-tight">NPK Fertilizer Grades</h3>
                                 <p className="text-xs text-white/70 font-medium leading-relaxed max-w-xs">
-                                    Deploy integrated smart sensors and automated drone routing architectures.
+                                    Balanced nitrogen, phosphorus, and potassium formulations designed to support healthy crop growth and improve yield.
                                 </p>
                             </div>
                         </div>
@@ -98,9 +98,9 @@ export default function Features() {
                                 <Sprout className="w-6 h-6 stroke-[1.8]" />
                             </div>
                             <div className="space-y-1">
-                                <h3 className="text-lg font-bold tracking-tight">AI-Powered Crop Monitoring</h3>
+                                <h3 className="text-lg font-bold tracking-tight">PGR Fertilizer Grades</h3>
                                 <p className="text-xs text-white/70 font-medium leading-relaxed max-w-xs">
-                                    Track crop growth metrics continuously via data-driven models.
+                                    Specialized solutions that support plant growth, development, flowering, and overall crop performance.
                                 </p>
                             </div>
                         </div>
@@ -111,9 +111,9 @@ export default function Features() {
                                 <ShieldCheck className="w-6 h-6 stroke-[1.8]" />
                             </div>
                             <div className="space-y-1">
-                                <h3 className="text-lg font-bold tracking-tight">Eco-Friendly Farming Practices</h3>
+                                <h3 className="text-lg font-bold tracking-tight">Chelated Micronutrient Grades</h3>
                                 <p className="text-xs text-white/70 font-medium leading-relaxed max-w-xs">
-                                    Protect local biomes through target inputs and soil preservation techniques.
+                                    High-quality chelated micronutrients that improve nutrient absorption and help prevent micronutrient deficiencies.
                                 </p>
                             </div>
                         </div>
@@ -124,9 +124,9 @@ export default function Features() {
                                 <Waves className="w-6 h-6 stroke-[1.8]" />
                             </div>
                             <div className="space-y-1">
-                                <h3 className="text-lg font-bold tracking-tight">Moisture-Based Irrigation Control</h3>
+                                <h3 className="text-lg font-bold tracking-tight">Liquid Fertilizer Grades</h3>
                                 <p className="text-xs text-white/70 font-medium leading-relaxed max-w-xs">
-                                    Automate watering cycles based directly on localized real-time soil data.
+                                    Easy-to-apply liquid fertilizers formulated for efficient nutrient delivery and faster crop absorption.
                                 </p>
                             </div>
                         </div>

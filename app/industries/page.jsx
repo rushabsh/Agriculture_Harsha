@@ -82,13 +82,13 @@ export default function IndustriesPage() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/70" />
         <div className="relative z-10 text-center px-4 space-y-4 max-w-3xl mt-16">
           <span className="inline-block px-4 py-1.5 bg-[#5BC242]/20 border border-[#5BC242]/30 rounded-full text-xs font-bold uppercase tracking-wider text-[#69D34F]">
-            Sectors & Partnerships
+            Sectors
           </span>
           <h1 className="text-4xl md:text-6xl font-extrabold text-white tracking-tight leading-none font-serif">
             Industries We Serve
           </h1>
           <p className="text-gray-200 text-sm md:text-base font-medium max-w-xl mx-auto">
-            From large commercial growers to research organizations, we deliver targeted agricultural inputs and automation.
+            From large commercial growers to research organizations, we deliver targeted agricultural inputs.
           </p>
           <div className="flex items-center justify-center gap-2 text-xs md:text-sm font-semibold text-white/90 pt-2">
             <a href="/" className="hover:text-[#69D34F] transition-colors">Home</a>

@@ -11,13 +11,12 @@ export default function Hero() {
 
         {/* Main Heading */}
         <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-[80px] font-normal text-[#27272a] tracking-tight leading-[1.08] max-w-4xl">
-          Smart Agricultural<br className="hidden sm:inline" /> Advancement
+          Empowering Modern <br className="hidden sm:inline" /> Farming
         </h1>
 
         {/* Subtitle */}
         <p className="text-base sm:text-lg lg:text-lg text-[#61616b] max-w-2xl font-normal leading-relaxed text-center">
-          Empowering farmers with intelligent tools and real-time insights to boost productivity and support sustainable agricultural growth.
-        </p>
+          We import and supply high-quality agricultural fertilizers in bulk, providing reliable, cost-effective solutions to farmers, distributors, retailers, and agribusinesses for improved crop growth and productivity.        </p>
 
         {/* Action CTA Buttons */}
         <div className="flex items-center gap-2 pt-2">

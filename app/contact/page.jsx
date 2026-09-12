@@ -47,8 +47,8 @@ export default function ContactPage() {
     {
       icon: Mail,
       title: "Email Address",
-      details: ["greenglobeagrochemical@gmail.com"],
-      link: "mailto:greenglobeagrochemical@gmail.com",
+      details: ["greenglobeimports@gmail.com"],
+      link: "mailto:greenglobeimports@gmail.com",
     },
     {
       icon: Clock,

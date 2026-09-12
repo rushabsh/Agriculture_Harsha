@@ -30,7 +30,7 @@ export default function AboutFuture() {
             {/* Tag/Badge with Small Leaf Accent */}
             <div className="flex items-center gap-2 text-[#469A35] font-bold text-xs uppercase tracking-wider">
               <Sprout className="w-4 h-4 text-[#469A35]" />
-              <span>About Agrigo</span>
+              <span>About GreenGlobe</span>
             </div>
 
             {/* Main Title */}
@@ -40,7 +40,7 @@ export default function AboutFuture() {
 
             {/* Sub-description */}
             <p className="text-sm sm:text-base text-gray-600 leading-relaxed font-medium">
-              Building stronger futures through smart agriculture means combining advanced technology, data-driven insights,
+              We are committed to building a stronger agricultural future by sourcing and supplying high-quality fertilizers that support efficient production, healthy crops, and sustainable farming. Through reliable supply solutions, we help businesses meet the growing demands of modern agriculture.
             </p>
 
             {/* Action CTA Buttons */}
@@ -57,37 +57,6 @@ export default function AboutFuture() {
                 </svg>
               </div>
             </div>
-
-            {/* Dual White Info Cards Row */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
-              {/* Card 1: Crop Monitoring */}
-              <div className="bg-white rounded-xl border border-gray-100 p-5 shadow-xs space-y-3 flex flex-col justify-between">
-                <div className="w-12 h-12 rounded-xl bg-gray-50 flex items-center justify-center text-[#0D4E22]">
-                  {/* Styled like the placeholder wireframe icon */}
-                  <Eye className="w-6 h-6 stroke-[1.5]" />
-                </div>
-                <div className="space-y-1.5">
-                  <h3 className="text-base font-bold text-[#0D4E22]">Crop Monitoring</h3>
-                  <p className="text-xs text-gray-500 font-medium leading-relaxed">
-                    Agriculture means combining advanced technology,
-                  </p>
-                </div>
-              </div>
-
-              {/* Card 2: Automated Irrigation */}
-              <div className="bg-white rounded-xl border border-gray-100 p-5 shadow-xs space-y-3 flex flex-col justify-between">
-                <div className="w-12 h-12 rounded-xl bg-gray-50 flex items-center justify-center text-[#0D4E22]">
-                  <Sprout className="w-6 h-6 stroke-[1.5]" />
-                </div>
-                <div className="space-y-1.5">
-                  <h3 className="text-base font-bold text-[#0D4E22]">Automated Irrigation</h3>
-                  <p className="text-xs text-gray-500 font-medium leading-relaxed">
-                    Agriculture means combining advanced technology,
-                  </p>
-                </div>
-              </div>
-            </div>
-
           </div>
 
           {/* 3. RIGHT COLUMN: Tall Showcase Image (lg:col-span-4) */}
