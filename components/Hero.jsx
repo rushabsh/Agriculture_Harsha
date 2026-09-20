@@ -1,11 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
-import { ArrowUpRight } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section className="relative w-full bg-[#f4f4f6] overflow-hidden flex flex-col justify-between pt-36 sm:pt-40 lg:pt-40">
+    <section className="relative w-full bg-[#f4f4f6] overflow-hidden flex flex-col justify-between pt-36 sm:pt-40">
       {/* Centered Hero Content */}
       <div className="gap-3 relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center">
 
@@ -15,7 +13,7 @@ export default function Hero() {
         </h1>
 
         {/* Subtitle */}
-        <p className="text-base sm:text-lg lg:text-lg text-[#61616b] max-w-2xl font-normal leading-relaxed text-center">
+        <p className="text-base sm:text-lg text-[#61616b] max-w-2xl font-normal leading-relaxed text-center">
           We import and supply high-quality agricultural fertilizers in bulk, providing reliable, cost-effective solutions to farmers, distributors, retailers, and agribusinesses for improved crop growth and productivity.        </p>
 
         {/* Action CTA Buttons */}

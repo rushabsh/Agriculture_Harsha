@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { MapPin, Phone, Mail, Clock, Send, Sprout } from "lucide-react";
@@ -79,7 +80,7 @@ export default function ContactPage() {
             Have questions about our smart agricultural products or need consulting? Send us a message today.
           </p>
           <div className="flex items-center justify-center gap-2 text-xs md:text-sm font-semibold text-white/90 pt-2">
-            <a href="/" className="hover:text-[#69D34F] transition-colors">Home</a>
+            <Link href="/" className="hover:text-[#69D34F] transition-colors">Home</Link>
             <span className="text-white/40">/</span>
             <span className="text-[#69D34F]">Contact Us</span>
           </div>

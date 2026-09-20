@@ -28,7 +28,7 @@ export default function Footer() {
       </div>
 
       {/* Main Content Layout Container */}
-      <div className="relative w-full max-w-7xl flex flex-col items-center z-10 mt-16 sm:mt-24 md:mt-32 w-full">
+      <div className="relative w-full max-w-7xl flex flex-col items-center z-10 mt-16 sm:mt-24 md:mt-32">
 
         {/* Giant Overlapping Branding Text */}
         <h2 className="text-[14vw] sm:text-[12vw] font-bold tracking-tight text-[#fdf6d4] opacity-[0.85] select-none leading-none mb-[-25px] sm:mb-[-50px] md:mb-[-75px] transition-transform pointer-events-none text-center">
@@ -47,7 +47,7 @@ export default function Footer() {
                 </p>
                 <div className="space-y-2">
                   <a
-                    href="mailto:greenglobeagrochemical@gmail.com"
+                    href="mailto:greenglobeimports@gmail.com"
                     className="block text-xl sm:text-2xl md:text-3xl font-bold text-[#fdf6d4] hover:underline break-all sm:break-normal"
                   >
                     greenglobeimports@gmail.com
@@ -120,7 +120,7 @@ export default function Footer() {
                 </div>
 
                 <p className="text-white/50 text-xs leading-relaxed mt-3 md:mt-4 font-medium">
-                  Our expertise, as well as our passion for web design, sets us apart from other agencies.
+                  Supplying high-purity fertilizer grades and dependable agricultural raw materials across India.
                 </p>
               </div>
 

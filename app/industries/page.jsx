@@ -1,6 +1,6 @@
+import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import Brands from "@/components/Brands";
 import Testimonials from "@/components/Testimonials";
 import { Sprout, ArrowRight, Factory, ShieldCheck, Layers, TestTubeDiagonal, TrendingUp, Truck } from "lucide-react";
 import Image from "next/image";
@@ -91,7 +91,7 @@ export default function IndustriesPage() {
             From large commercial growers to research organizations, we deliver targeted agricultural inputs.
           </p>
           <div className="flex items-center justify-center gap-2 text-xs md:text-sm font-semibold text-white/90 pt-2">
-            <a href="/" className="hover:text-[#69D34F] transition-colors">Home</a>
+            <Link href="/" className="hover:text-[#69D34F] transition-colors">Home</Link>
             <span className="text-white/40">/</span>
             <span className="text-[#69D34F]">Industries</span>
           </div>
@@ -201,10 +201,6 @@ export default function IndustriesPage() {
         </div>
       </main>
 
-      {/* Brands & Partnership Slider Section */}
-      <section className="bg-[#FAF8F2] py-16">
-        {/* <Brands /> */}
-      </section>
       {/* Client Success Testimonials */}
       <Testimonials />
       <Footer />

@@ -62,7 +62,7 @@ export default function AgrigoRedesign() {
                         </div>
 
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-[#0B4A27] leading-[1.15] font-serif">
-                            Reliable Sourcing for India's Fertilizer Industry
+                            Reliable Sourcing for India&apos;s Fertilizer Industry
                         </h1>
                     </div>
 
@@ -107,7 +107,7 @@ export default function AgrigoRedesign() {
 
                     {/* Stylized Outline Typography Overlay Asset */}
                     <div
-                        className="absolute bottom-[-100px] left-[-40px] text-[13rem] font-serif font-black tracking-widest select-none pointer-events-none opacity-50 font-sans hidden lg:block"
+                        className="absolute bottom-[-100px] left-[-40px] text-[13rem] font-serif font-black tracking-widest select-none pointer-events-none opacity-50 hidden lg:block"
                         style={{
                             WebkitTextStroke: '2px #cbecdaff',
                             color: 'transparent',

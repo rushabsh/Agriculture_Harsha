@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sprout, Plane, ShieldCheck, Waves, Play } from 'lucide-react'; // Make sure lucide-react is installed
+import { Sprout, Plane, ShieldCheck, Waves } from 'lucide-react';
 import Image from 'next/image';
 
 export default function Features() {

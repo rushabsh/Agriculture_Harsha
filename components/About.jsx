@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sprout, Eye } from 'lucide-react'; // Make sure lucide-react is installed
+import { Sprout } from 'lucide-react';
 import Image from 'next/image';
 
 export default function AboutFuture() {

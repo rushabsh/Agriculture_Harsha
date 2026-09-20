@@ -21,7 +21,7 @@ export default function Navbar() {
   return (
     <>
       {/* Navbar Container: Flexible width matching desktop/mobile bounds */}
-      <header className="absolute w-[100%] sm:w-[100%] lg:w-[100%] m-auto left-0 right-0 z-[110]">
+      <header className="absolute w-full m-auto left-0 right-0 z-[110]">
         <div className="w-full">
           <div className="flex h-24 items-center justify-between bg-white px-4 sm:px-6">
 
@@ -34,7 +34,7 @@ export default function Navbar() {
                   width={140}
                   height={42}
                   priority
-                  className="w-auto h-24 sm:h-24 object-contain"
+                  className="w-auto h-24 object-contain"
                 />
               </Link>
               <div className="hidden h-8 w-px bg-gray-200 md:block" />
