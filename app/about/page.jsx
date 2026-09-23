@@ -1,8 +1,15 @@
+import Link from "next/link";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import AboutAgrigo from "@/components/About/AboutAgrigo";
 import AgricultureIntelligence from "@/components/About/AgricultureIntelligence";
 import Testimonials from "@/components/Testimonials";
+
+export const metadata = {
+  title: "About Us",
+  description: "Learn about GreenGlobe Agrochemical Industries: our mission, values, and commitment to dependable fertilizer raw material sourcing across India.",
+};
 
 export default function AboutPage() {
   return (
@@ -10,11 +17,16 @@ export default function AboutPage() {
       <Header />
 
       {/* Page Breadcrumb Header */}
-      <section className="relative h-[360px] md:h-[420px] flex items-center justify-center overflow-hidden bg-black select-none">
+      <section className="relative h-[360px] md:h-[420px] flex items-center justify-center overflow-hidden bg-black">
         {/* Background Image */}
-        <div
-          className="absolute inset-0 bg-cover bg-center opacity-65 bg-no-repeat transition-transform duration-[2000ms] hover:scale-105"
-          style={{ backgroundImage: "url('/breadcum-1.jpg')" }}
+        <Image
+          src="/breadcum-1.jpg"
+          alt="Agricultural field landscape"
+          fill
+          priority
+          sizes="100vw"
+          quality={80}
+          className="object-cover object-center opacity-65 transition-transform duration-[2000ms] hover:scale-105"
         />
         {/* Subtle overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/70" />
@@ -28,7 +40,7 @@ export default function AboutPage() {
             About GreenGlobe
           </h1>
           <div className="flex items-center justify-center gap-2 text-xs md:text-sm font-semibold text-white/90 pt-2">
-            <a href="/" className="hover:text-[#69D34F] transition-colors">Home</a>
+            <Link href="/" className="hover:text-[#69D34F] transition-colors">Home</Link>
             <span className="text-white/40">/</span>
             <span className="text-[#69D34F]">About Us</span>
           </div>

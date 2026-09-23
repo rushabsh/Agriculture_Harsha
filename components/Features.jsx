@@ -1,10 +1,11 @@
 import React from 'react';
-import { Sprout, Plane, ShieldCheck, Waves, Play } from 'lucide-react'; // Make sure lucide-react is installed
+import { Sprout, Plane, ShieldCheck, Waves } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Features() {
     return (
-        <section className="w-full bg-[#0b6e39] py-20 px-4 sm:px-6 lg:px-8 select-none overflow-hidden relative text-white">
+        <section className="w-full bg-[#0b6e39] py-20 px-4 sm:px-6 lg:px-8 overflow-hidden relative text-white">
 
             {/* Subtle vector background overlay lines simulation */}
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-white/[0.03] via-transparent to-transparent pointer-events-none z-0" />
@@ -29,19 +30,19 @@ export default function Features() {
                         </div>
 
                         {/* CTA Interaction Row */}
-                        <div className="flex items-center gap-1.5 pt-2">
-                            <a
-                                href="/contact"
-                                className="inline-flex items-center justify-center px-6 py-3.5 bg-[#7ce052] hover:bg-[#6bd041] text-white font-bold rounded-xl text-sm uppercase tracking-wider transition-colors shadow-xs"
-                            >
+                        <Link
+                            href="/contact"
+                            className="inline-flex items-center gap-1.5 pt-2 group cursor-pointer"
+                        >
+                            <span className="inline-flex items-center justify-center px-6 py-3.5 bg-[#7ce052] group-hover:bg-[#6bd041] text-white font-bold rounded-xl text-sm uppercase tracking-wider transition-colors shadow-xs">
                                 Get In Touch
-                            </a>
-                            <div className="p-3.5 bg-[#7ce052] text-white rounded-xl flex items-center justify-center">
+                            </span>
+                            <span className="p-3.5 bg-[#7ce052] group-hover:bg-[#6bd041] text-white rounded-xl flex items-center justify-center transition-colors shadow-xs">
                                 <svg className="w-4 h-4 transform rotate-45" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                 </svg>
-                            </div>
-                        </div>
+                            </span>
+                        </Link>
                     </div>
 
                     {/* Right Showcase Image Card */}

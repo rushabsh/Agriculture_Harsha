@@ -4,14 +4,10 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "wgl-dsites.net",
-      },
-      {
-        protocol: "https",
         hostname: "images.unsplash.com",
       },
     ],
-    qualities: [75, 95],
+    qualities: [75, 80, 95],
   },
 };
 

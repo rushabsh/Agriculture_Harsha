@@ -46,14 +46,14 @@ export default function Services() {
 
   const scroll = (direction) => {
     if (scrollRef.current) {
-      const { scrollLeft, clientWidth } = scrollRef.current;
+      const { scrollLeft } = scrollRef.current;
       const scrollTo = direction === 'left' ? scrollLeft - 320 : scrollLeft + 320;
       scrollRef.current.scrollTo({ left: scrollTo, behavior: 'smooth' });
     }
   };
 
   return (
-    <section className="w-full bg-white pt-20 pb-0 select-none flex flex-col justify-between min-h-screen relative overflow-hidden">
+    <section className="w-full bg-white pt-20 pb-0 flex flex-col justify-between min-h-screen relative overflow-hidden">
 
       {/* Top Heading Content Area */}
       <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 mb-12">
@@ -112,7 +112,7 @@ export default function Services() {
 
                 {/* Micro CTA Details Tag */}
                 <a
-                  href="http://localhost:3000/products"
+                  href="/products"
                   className={`inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-wider pt-2 ${item.isActive ? 'text-[#5BC242] hover:text-white' : 'text-[#0D4E22] hover:text-[#5BC242]'
                     }`}
                 >
@@ -139,7 +139,7 @@ export default function Services() {
       </div>
 
       {/* Footer Banner Graphic Element Layout */}
-      <div className="w-full w-full h-[140px] sm:h-[180px] md:h-[220px] relative mt-auto z-0 shrink-0">
+      <div className="w-full h-[140px] sm:h-[180px] md:h-[220px] relative mt-auto z-0 shrink-0">
         <Image
           src="/service-bg.png" // Exact mapping requested filename inside public/
           alt="Fresh vegetables alignment graphic footer"

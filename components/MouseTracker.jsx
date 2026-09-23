@@ -21,7 +21,7 @@ export default function MouseTracker() {
 
     const handleMouseMove = (e) => {
       setPosition({ x: e.clientX, y: e.clientY });
-      if (!isVisible) setIsVisible(true);
+      setIsVisible(true);
     };
 
     const handleMouseLeave = () => {
@@ -61,7 +61,7 @@ export default function MouseTracker() {
       document.removeEventListener("mouseenter", handleMouseEnter);
       window.removeEventListener("mouseover", handleMouseOver);
     };
-  }, [isVisible]);
+  }, []);
 
   if (isTouchDevice || !isVisible) return null;
 

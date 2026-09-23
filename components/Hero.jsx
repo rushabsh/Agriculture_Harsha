@@ -1,11 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowUpRight } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section className="relative w-full bg-[#f4f4f6] overflow-hidden flex flex-col justify-between pt-36 sm:pt-40 lg:pt-40">
+    <section className="relative w-full bg-[#f4f4f6] overflow-hidden flex flex-col justify-between pt-36 sm:pt-40">
       {/* Centered Hero Content */}
       <div className="gap-3 relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center">
 
@@ -15,23 +14,23 @@ export default function Hero() {
         </h1>
 
         {/* Subtitle */}
-        <p className="text-base sm:text-lg lg:text-lg text-[#61616b] max-w-2xl font-normal leading-relaxed text-center">
+        <p className="text-base sm:text-lg text-[#61616b] max-w-2xl font-normal leading-relaxed text-center">
           We import and supply high-quality agricultural fertilizers in bulk, providing reliable, cost-effective solutions to farmers, distributors, retailers, and agribusinesses for improved crop growth and productivity.        </p>
 
         {/* Action CTA Buttons */}
-        <div className="flex items-center gap-2 pt-2">
-          <a
-            href="/contact"
-            className="inline-flex items-center justify-center px-6 py-3.5 bg-[#5BC242] hover:bg-[#4ba834] text-white font-bold rounded-xl text-sm transition-colors shadow-xs"
-          >
+        <Link
+          href="/contact"
+          className="inline-flex items-center gap-2 pt-2 group cursor-pointer"
+        >
+          <span className="inline-flex items-center justify-center px-6 py-3.5 bg-[#5BC242] group-hover:bg-[#4ba834] text-white font-bold rounded-xl text-sm transition-colors shadow-xs">
             LEARN MORE
-          </a>
-          <div className="p-3.5 bg-[#5BC242] text-white rounded-xl flex items-center justify-center">
+          </span>
+          <span className="p-3.5 bg-[#5BC242] group-hover:bg-[#4ba834] text-white rounded-xl flex items-center justify-center transition-colors shadow-xs">
             <svg className="w-4 h-4 transform rotate-45" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
             </svg>
-          </div>
-        </div>
+          </span>
+        </Link>
 
       </div>
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import { ArrowUpRight, Play, Check } from 'lucide-react';
+import Link from 'next/link';
+import { ArrowUpRight, Play } from 'lucide-react';
 
 export default function AgricultureIntelligence() {
     return (
@@ -84,15 +85,20 @@ export default function AgricultureIntelligence() {
 
                         {/* Buttons */}
                         <div className="flex items-center gap-2 pt-4">
-                            <a href="http://localhost:3000/contact">
-                                <button className="bg-[#66CD4E] hover:bg-[#59b841] text-white font-bold text-xs px-6 py-3.5 rounded-xl uppercase tracking-wider transition-colors">
-                                    EXPLORE OUR GRADES
-                                </button>
-                            </a>
+                            <Link
+                                href="/contact"
+                                className="inline-flex items-center bg-[#66CD4E] hover:bg-[#59b841] text-white font-bold text-xs px-6 py-3.5 rounded-xl uppercase tracking-wider transition-colors"
+                            >
+                                EXPLORE OUR GRADES
+                            </Link>
 
-                            <button className="bg-[#66CD4E] hover:bg-[#59b841] text-white p-3.5 rounded-xl transition-colors">
+                            <Link
+                                href="/contact"
+                                className="inline-flex items-center justify-center bg-[#66CD4E] hover:bg-[#59b841] text-white p-3.5 rounded-xl transition-colors"
+                                aria-label="Explore our grades"
+                            >
                                 <ArrowUpRight className="w-4 h-4" />
-                            </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -102,7 +108,7 @@ export default function AgricultureIntelligence() {
             <section className="relative w-full h-[450px] md:h-[550px]">
                 {/* Background Tractor Banner Image */}
                 <Image
-                    src="/video-image-2.jpg"
+                    src="/video-image-2.webp"
                     alt="Modern tractor working on farm fields"
                     fill
                     className="object-cover"
