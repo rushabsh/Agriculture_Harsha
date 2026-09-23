@@ -10,7 +10,7 @@ export default function NotFound() {
     <div className="flex flex-col min-h-screen bg-white">
       <Header />
 
-      <main className="flex-1 flex flex-col items-center justify-center py-20 px-6 text-center select-none mt-20">
+      <main className="flex-1 flex flex-col items-center justify-center py-20 px-6 text-center mt-20">
         <div className="max-w-xl mx-auto flex flex-col items-center">
 
           {/* Koala Illustration */}
@@ -36,19 +36,17 @@ export default function NotFound() {
           </div>
 
           {/* Action Button Row */}
-          <div className="flex items-center gap-2 mt-8">
+          <div className="mt-8">
             <Link
               href="/"
-              className="bg-[#66CD4E] hover:bg-[#59b841] text-white font-extrabold text-xs px-8 py-4 rounded-xl uppercase tracking-wider transition-colors shadow-md flex items-center justify-center h-12"
+              className="inline-flex items-center gap-2 group cursor-pointer"
             >
-              Back To Home
-            </Link>
-            <Link
-              href="/"
-              className="bg-[#66CD4E] hover:bg-[#59b841] text-white px-4 rounded-xl transition-colors shadow-md flex items-center justify-center h-12 w-12"
-              aria-label="Go home arrow"
-            >
-              <ArrowUpRight className="w-5 h-5 stroke-[2.5]" />
+              <span className="bg-[#66CD4E] group-hover:bg-[#59b841] text-white font-extrabold text-xs px-8 py-4 rounded-xl uppercase tracking-wider transition-colors shadow-md flex items-center justify-center h-12">
+                Back To Home
+              </span>
+              <span className="bg-[#66CD4E] group-hover:bg-[#59b841] text-white px-4 rounded-xl transition-colors shadow-md flex items-center justify-center h-12 w-12">
+                <ArrowUpRight className="w-5 h-5 stroke-[2.5]" />
+              </span>
             </Link>
           </div>
 

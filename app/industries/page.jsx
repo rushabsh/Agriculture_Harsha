@@ -5,6 +5,12 @@ import Testimonials from "@/components/Testimonials";
 import { Sprout, ArrowRight, Factory, ShieldCheck, Layers, TestTubeDiagonal, TrendingUp, Truck } from "lucide-react";
 import Image from "next/image";
 
+export const metadata = {
+  title: "Industries We Serve",
+  description:
+    "Learn about the diverse agrochemical, fertilizer, and agricultural sectors empowered by GreenGlobe Agrochemical Industries across India.",
+};
+
 const industries = [
   {
     id: 1,
@@ -74,10 +80,14 @@ export default function IndustriesPage() {
       <Header />
 
       {/* Hero Breadcrumb Header */}
-      <section className="relative h-[360px] md:h-[420px] flex items-center justify-center overflow-hidden bg-black select-none">
-        <div
-          className="absolute inset-0 bg-cover bg-center opacity-65 bg-no-repeat transition-transform duration-[2000ms] hover:scale-105"
-          style={{ backgroundImage: "url('/breadcum-1.jpg')" }}
+      <section className="relative h-[360px] md:h-[420px] flex items-center justify-center overflow-hidden bg-black">
+        <Image
+          src="/breadcum-1.jpg"
+          alt="Agricultural fields and industries background"
+          fill
+          priority
+          quality={80}
+          className="object-cover opacity-65 transition-transform duration-[2000ms] hover:scale-105"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/70" />
         <div className="relative z-10 text-center px-4 space-y-4 max-w-3xl mt-16">
@@ -99,7 +109,7 @@ export default function IndustriesPage() {
       </section>
 
       {/* Main Content Asymmetric Grid List */}
-      <main className="flex-1 bg-white py-16 md:py-24 px-4 sm:px-6 lg:px-8 select-none overflow-hidden">
+      <main className="flex-1 bg-white py-16 md:py-24 px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div className="max-w-7xl mx-auto space-y-24 md:space-y-36">
 
           {/* Introductory Heading */}

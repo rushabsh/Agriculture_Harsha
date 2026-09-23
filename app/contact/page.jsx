@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { MapPin, Phone, Mail, Clock, Send, Sprout } from "lucide-react";
@@ -63,10 +64,14 @@ export default function ContactPage() {
       <Header />
 
       {/* Hero Breadcrumb Header */}
-      <section className="relative h-[360px] md:h-[420px] flex items-center justify-center overflow-hidden bg-black select-none">
-        <div
-          className="absolute inset-0 bg-cover bg-center opacity-65 bg-no-repeat transition-transform duration-[2000ms] hover:scale-105"
-          style={{ backgroundImage: "url('/breadcum-1.jpg')" }}
+      <section className="relative h-[360px] md:h-[420px] flex items-center justify-center overflow-hidden bg-black">
+        <Image
+          src="/breadcum-1.jpg"
+          alt="GreenGlobe contact hero background"
+          fill
+          priority
+          quality={80}
+          className="object-cover opacity-65 transition-transform duration-[2000ms] hover:scale-105"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/70" />
         <div className="relative z-10 text-center px-4 space-y-4 max-w-3xl mt-16">
@@ -88,7 +93,7 @@ export default function ContactPage() {
       </section>
 
       {/* Contact Content Section */}
-      <main className="flex-1 bg-[#FAF8F2] py-16 md:py-24 px-4 sm:px-6 lg:px-8 select-none">
+      <main className="flex-1 bg-[#FAF8F2] py-16 md:py-24 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto space-y-16">
 
           {/* Main Dual Grid */}
@@ -270,7 +275,7 @@ export default function ContactPage() {
           </div>
 
           {/* Bottom Area: Styled Map Box */}
-          <div className="w-full bg-[#0D4E22] rounded-[32px] overflow-hidden p-6 sm:p-10 border border-[#0D4E22] shadow-xl relative aspect-[16/6] min-h-[300px] flex items-center justify-center select-none text-white text-center">
+          <div className="w-full bg-[#0D4E22] rounded-[32px] overflow-hidden p-6 sm:p-10 border border-[#0D4E22] shadow-xl relative aspect-[16/6] min-h-[300px] flex items-center justify-center text-white text-center">
             {/* Geometric stylized grid overlay to simulate map coordinates */}
             <div className="absolute inset-0 opacity-10 bg-[linear-gradient(to_right,#fff_1px,transparent_1px),linear-gradient(to_bottom,#fff_1px,transparent_1px)] bg-[size:4rem_4rem]" />
             <div className="absolute w-[300px] h-[300px] bg-[#69D34F]/20 rounded-full blur-[80px]" />

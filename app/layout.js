@@ -16,8 +16,50 @@ const playfairDisplay = Playfair_Display({
 });
 
 export const metadata = {
-  title: "VerdaAgro - Sustainable Agriculture & Modern Farming Solutions",
-  description: "Replication of VerdaAgro website homepage focusing on sustainable agriculture, crop planning, soil testing, and modern farming solutions.",
+  metadataBase: new URL("https://greenglobeagro.com"),
+  title: {
+    default: "GreenGlobe Agrochemical Industries | Bulk Agricultural Fertilizers & Raw Materials",
+    template: "%s | GreenGlobe Agrochemical Industries",
+  },
+  description: "Leading importer, manufacturer, and bulk supplier of high-purity fertilizer raw materials, water-soluble fertilizers, PGR biostimulants, and chelated micronutrients in India.",
+  keywords: [
+    "Fertilizer Raw Materials",
+    "Water Soluble Fertilizers",
+    "PGR Biostimulants",
+    "Chelated Micronutrients",
+    "Potassium Humate Flakes",
+    "Bulk Fertilizer Sourcing",
+    "GreenGlobe Agrochemical Industries",
+    "Pune Fertilizer Supplier",
+  ],
+  authors: [{ name: "GreenGlobe Agrochemical Industries" }],
+  creator: "GreenGlobe Agrochemical Industries",
+  openGraph: {
+    type: "website",
+    locale: "en_IN",
+    url: "https://greenglobeagro.com",
+    title: "GreenGlobe Agrochemical Industries | Bulk Agricultural Fertilizers",
+    description: "Leading importer, manufacturer, and bulk supplier of high-purity fertilizer raw materials across India. Certified wholesale license: LCFWD2023100392.",
+    siteName: "GreenGlobe Agrochemical Industries",
+    images: [
+      {
+        url: "/logo.png",
+        width: 800,
+        height: 600,
+        alt: "GreenGlobe Agrochemical Industries Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "GreenGlobe Agrochemical Industries",
+    description: "Leading importer, manufacturer, and bulk supplier of high-purity fertilizer raw materials across India.",
+    images: ["/logo.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({ children }) {

@@ -74,6 +74,8 @@ export default function Navbar() {
                 onClick={() => setIsMobileMenuOpen(true)}
                 className="p-2 lg:hidden text-gray-700 hover:text-black rounded-full hover:bg-[#F8F6F2] transition-colors"
                 aria-label="Toggle Menu"
+                aria-expanded={isMobileMenuOpen}
+                aria-controls="mobile-navigation-drawer"
               >
                 <Menu className="w-6 h-6" />
               </button>
@@ -95,7 +97,13 @@ export default function Navbar() {
           />
 
           {/* Drawer Menu Surface */}
-          <div className="fixed top-0 right-0 bottom-0 w-full max-w-xs bg-white p-6 shadow-2xl flex flex-col justify-between z-10 animate-in slide-in-from-right duration-200">
+          <div
+            id="mobile-navigation-drawer"
+            role="dialog"
+            aria-modal="true"
+            aria-label="Mobile Navigation Menu"
+            className="fixed top-0 right-0 bottom-0 w-full max-w-xs bg-white p-6 shadow-2xl flex flex-col justify-between z-10 animate-in slide-in-from-right duration-200"
+          >
             <div>
               {/* Header Container Inside Drawer */}
               <div className="flex items-center justify-between pb-6 border-b border-gray-100">

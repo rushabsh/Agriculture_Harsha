@@ -1,15 +1,10 @@
-"use client";
-
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Mail, ArrowUp } from 'lucide-react';
+import { Mail } from 'lucide-react';
+import ScrollToTopButton from '@/components/ScrollToTopButton';
 
 export default function Footer() {
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
   return (
     <footer className="relative w-full min-h-screen flex flex-col justify-end items-center px-4 sm:px-6 md:px-8 pb-8 md:pb-12 overflow-hidden bg-[#150e07]">
 
@@ -114,6 +109,7 @@ export default function Footer() {
                   <input
                     type="email"
                     placeholder="Get news & updates"
+                    aria-label="Email address for news and updates"
                     className="bg-transparent text-white placeholder-white/60 focus:outline-none w-full text-sm pr-4 font-medium"
                   />
                   <Mail className="w-4 h-4 text-white/60 group-focus-within:text-[#fdf6d4] shrink-0" />
@@ -136,13 +132,7 @@ export default function Footer() {
       </div>
 
       {/* Absolute Bottom Right Floating Back-To-Top Trigger */}
-      <button
-        onClick={scrollToTop}
-        className="fixed bottom-4 right-4 md:absolute md:bottom-6 md:right-12 p-3 md:p-3.5 bg-[#fdf6d4] hover:bg-[#faeeb4] text-black rounded-full shadow-lg transition-transform hover:scale-105 active:scale-95 group z-20 cursor-pointer"
-        aria-label="Scroll to top"
-      >
-        <ArrowUp className="w-4 h-4 md:w-5 md:h-5 transition-transform group-hover:-translate-y-0.5" />
-      </button>
+      <ScrollToTopButton />
     </footer>
   );
 }

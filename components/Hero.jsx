@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Hero() {
   return (
@@ -17,19 +18,19 @@ export default function Hero() {
           We import and supply high-quality agricultural fertilizers in bulk, providing reliable, cost-effective solutions to farmers, distributors, retailers, and agribusinesses for improved crop growth and productivity.        </p>
 
         {/* Action CTA Buttons */}
-        <div className="flex items-center gap-2 pt-2">
-          <a
-            href="/contact"
-            className="inline-flex items-center justify-center px-6 py-3.5 bg-[#5BC242] hover:bg-[#4ba834] text-white font-bold rounded-xl text-sm transition-colors shadow-xs"
-          >
+        <Link
+          href="/contact"
+          className="inline-flex items-center gap-2 pt-2 group cursor-pointer"
+        >
+          <span className="inline-flex items-center justify-center px-6 py-3.5 bg-[#5BC242] group-hover:bg-[#4ba834] text-white font-bold rounded-xl text-sm transition-colors shadow-xs">
             LEARN MORE
-          </a>
-          <div className="p-3.5 bg-[#5BC242] text-white rounded-xl flex items-center justify-center">
+          </span>
+          <span className="p-3.5 bg-[#5BC242] group-hover:bg-[#4ba834] text-white rounded-xl flex items-center justify-center transition-colors shadow-xs">
             <svg className="w-4 h-4 transform rotate-45" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
             </svg>
-          </div>
-        </div>
+          </span>
+        </Link>
 
       </div>
 

@@ -24,15 +24,15 @@ export default function Statistics() {
   ];
 
   return (
-    <section className="w-full bg-white py-16 px-4 sm:px-6 lg:px-8 select-none overflow-hidden flex flex-col items-center">
+    <section className="w-full bg-white py-16 px-4 sm:px-6 lg:px-8 overflow-hidden flex flex-col items-center">
       <div className="max-w-7xl w-full flex flex-col gap-16">
         {/* ========================================================================= */}
         {/* UPPER BLOCK: Giant Headline Typography */}
         {/* ========================================================================= */}
         <div className="w-full text-center">
-          <h1 className="text-[11vw] font-black tracking-tight text-[#0D4E22] leading-none uppercase select-none">
+          <h2 className="text-[11vw] font-black tracking-tight text-[#0D4E22] leading-none uppercase">
             Statistics
-          </h1>
+          </h2>
         </div>
 
         {/* ========================================================================= */}

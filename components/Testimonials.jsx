@@ -38,7 +38,7 @@ export default function Testimonials() {
   };
 
   return (
-    <section className="w-full bg-[#FAF8F2] py-20 px-4 sm:px-6 lg:px-8 select-none relative overflow-hidden">
+    <section className="w-full bg-[#FAF8F2] py-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
 
       {/* Background Stylized Sketch Overlay Mask Simulation */}
       <div

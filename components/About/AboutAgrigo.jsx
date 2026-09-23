@@ -32,7 +32,7 @@ export default function AgrigoRedesign() {
     ];
 
     return (
-        <section className="relative min-h-screen w-full text-[#0B4A27] bg-white font-sans py-20 px-6 md:px-12 lg:px-24 overflow-hidden select-none">
+        <section className="relative min-h-screen w-full text-[#0B4A27] bg-white font-sans py-20 px-6 md:px-12 lg:px-24 overflow-hidden">
             <div className="max-w-7xl mx-auto relative z-10">
 
                 {/* UPPER GRID SECTION */}
@@ -61,9 +61,9 @@ export default function AgrigoRedesign() {
                             ABOUT GREENGLOBE
                         </div>
 
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-[#0B4A27] leading-[1.15] font-serif">
+                        <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-[#0B4A27] leading-[1.15] font-serif">
                             Reliable Sourcing for India&apos;s Fertilizer Industry
-                        </h1>
+                        </h2>
                     </div>
 
                     {/* Right Column: Description, Rounded Buttons & Organic Tractor Image */}
@@ -75,19 +75,17 @@ export default function AgrigoRedesign() {
 
                         </div>
 
-                        <div className="flex items-center gap-3">
+                        <div>
                             <Link
                                 href="/contact"
-                                className="bg-[#60C347] hover:bg-[#52B23A] text-white font-bold text-xs px-7 py-4 rounded-2xl shadow-md transition-all duration-300 transform hover:-translate-y-0.5 tracking-wider uppercase inline-block"
+                                className="inline-flex items-center gap-3 group cursor-pointer"
                             >
-                                Get in Touch
-                            </Link>
-                            <Link
-                                href="/contact"
-                                className="bg-[#60C347] hover:bg-[#52B23A] text-white p-4 rounded-2xl shadow-md transition-all duration-300 transform hover:-translate-y-0.5 inline-flex items-center justify-center"
-                                aria-label="Go to contact"
-                            >
-                                <ArrowUpRight className="w-4 h-4" strokeWidth={2.5} />
+                                <span className="bg-[#60C347] group-hover:bg-[#52B23A] text-white font-bold text-xs px-7 py-4 rounded-2xl shadow-md transition-all duration-300 transform group-hover:-translate-y-0.5 tracking-wider uppercase inline-block">
+                                    Get in Touch
+                                </span>
+                                <span className="bg-[#60C347] group-hover:bg-[#52B23A] text-white p-4 rounded-2xl shadow-md transition-all duration-300 transform group-hover:-translate-y-0.5 inline-flex items-center justify-center">
+                                    <ArrowUpRight className="w-4 h-4" strokeWidth={2.5} />
+                                </span>
                             </Link>
                         </div>
 

@@ -53,7 +53,7 @@ export default function Services() {
   };
 
   return (
-    <section className="w-full bg-white pt-20 pb-0 select-none flex flex-col justify-between min-h-screen relative overflow-hidden">
+    <section className="w-full bg-white pt-20 pb-0 flex flex-col justify-between min-h-screen relative overflow-hidden">
 
       {/* Top Heading Content Area */}
       <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 mb-12">

@@ -911,10 +911,14 @@ export default function ProductsPage() {
       <Header />
 
       {/* Breadcrumb Hero */}
-      <section className="relative h-[360px] md:h-[420px] flex items-center justify-center overflow-hidden bg-black select-none">
-        <div
-          className="absolute inset-0 bg-cover bg-center opacity-65 bg-no-repeat transition-transform duration-[2000ms] hover:scale-105"
-          style={{ backgroundImage: "url('/breadcum-1.jpg')" }}
+      <section className="relative h-[360px] md:h-[420px] flex items-center justify-center overflow-hidden bg-black">
+        <Image
+          src="/breadcum-1.jpg"
+          alt="Products catalog hero background"
+          fill
+          priority
+          quality={80}
+          className="object-cover opacity-65 transition-transform duration-[2000ms] hover:scale-105"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/70" />
         <div className="relative z-10 text-center px-4 space-y-4 max-w-4xl mt-16">
@@ -984,8 +988,8 @@ export default function ProductsPage() {
         </div>
       </section>
 
-      {/* Product Catalog Section */}
-      <main className="flex-1 bg-[#FAF8F2] py-14 md:py-20 px-4 sm:px-6 lg:px-8 select-none">
+      {/* Main Catalog Workspace */}
+      <main className="flex-1 bg-[#FAF8F2] py-14 md:py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto space-y-12">
           {/* Main Category Switcher Menu */}
           <div className="flex flex-wrap justify-center items-center gap-2.5">
@@ -1223,6 +1227,7 @@ export default function ProductsPage() {
                     <Search className="w-4 h-4 text-gray-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
                     <input
                       type="text"
+                      aria-label="Search technical grades and products"
                       placeholder="Search grade, role, or technical..."
                       value={searchQuery}
                       onChange={(e) => setSearchQuery(e.target.value)}
