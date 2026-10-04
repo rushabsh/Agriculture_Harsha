@@ -48,7 +48,7 @@ const categoryDetails = {
       "Advanced Polyphosphate Grades resistant to soil fixation across wide pH ranges",
       "High-density Oxide Grades for superior trans-cuticular penetration and leaf coverage",
     ],
-    primaryImage: "/h2-1.webp",
+    primaryImage: "/NPK 191919.webp",
     icon: Droplet,
     iconColor: "text-[#469A35]",
     specs: [
@@ -66,7 +66,7 @@ const categoryDetails = {
     subGroupImages: {
       "Regular Grades (9)": [
         {
-          src: "/h2-1.webp",
+          src: "/NPK 191919.webp",
           title: "100% Soluble Regular Macro-Nutrients",
           desc: "High-purity crystalline technicals engineered for micro-irrigation and foliar feeding",
         },
@@ -111,6 +111,7 @@ const categoryDetails = {
       {
         name: "NPK 19:19:19",
         role: "Universal Balanced Vegetative Growth",
+        image: "/NPK 191919.webp",
         desc: "FEATURES:\n• Provides a balanced ratio of nitrogen, phosphorus, and potassium, essential for various plant functions.\n• Dissolves easily in water, making it readily available for plant uptake through roots or leaves.\n• Suitable for a wide range of crops and can be applied through different methods such as drip irrigation, foliar sprays, and soil drenching.\n• Can contribute to increased crop yields and improved quality.\n\nCOMPOSITION:\n• Nitrogen (As N) : 19.0% w/w min\n• Water Soluble Phosphorus (as P₂O₅) : 19.0% w/w min\n• Total Soluble Potassium (as K₂O) : 19.0% w/w max\n• Matter Insoluble In Water : 0.5% w/w max\n• Moisture : 0.5% w/w max\n\nDose: 2 To 3 Kg per Acre",
         badge: "Regular Grade",
         subCategory: "Regular Grades (9)",
@@ -118,6 +119,7 @@ const categoryDetails = {
       {
         name: "NPK 13:00:45 (Potassium Nitrate)",
         role: "Fruit Sizing & Sugar Translocation",
+        image: "/NPK 130045.webp",
         desc: "FEATURES:\n• Potassium Nitrate supports flowering and fruiting, resulting in increased yields.\n• Dissolves easily in water, making it readily available for plant uptake through roots or leaves.\n• NPK 13:00:45 is particularly beneficial during these stages as it supports flowering, enhances fruit development, and improves fruit quality.\n• It supports the development of a healthy root system.\n\nCOMPOSITION:\n• Nitrogen (As N) : 13.0% w/w min\n• Water Soluble Phosphorus (as P₂O₅) : 00.0% w/w min\n• Total Soluble Potassium (as K₂O) : 45.0% w/w max\n• Matter Insoluble In Water : 0.5% w/w max\n• Moisture : 0.5% w/w max\n\nDose: 2 To 3 Kg per Acre",
         badge: "Regular Grade",
         subCategory: "Regular Grades (9)",
@@ -125,6 +127,7 @@ const categoryDetails = {
       {
         name: "NPK 13:40:13",
         role: "Early Root & Bloom Formation",
+        image: "/NPK 134013.webp",
         desc: "FEATURES:\n• It is particularly beneficial during the early flowering and fruiting stages when phosphorus is required in higher amounts.\n• Dissolves easily in water, making it readily available for plant uptake through roots or leaves.\n• Promotes healthy vegetative growth.\n• Stimulates root development.\n• Helps reduce flower dropping.\n• Improves plant resistance to diseases and pests.\n• Enhances fruit quality, weight, color, and size.\n\nCOMPOSITION:\n• Nitrogen (As N) : 13.0% w/w min\n• Water Soluble Phosphorus (as P₂O₅) : 40.0% w/w min\n• Total Soluble Potassium (as K₂O) : 13.0% w/w max\n• Matter Insoluble In Water : 0.5% w/w max\n• Moisture : 0.5% w/w max\n\nDose: 2 To 3 Kg per Acre",
         badge: "Regular Grade",
         subCategory: "Regular Grades (9)",
@@ -132,6 +135,7 @@ const categoryDetails = {
       {
         name: "NPK 12:61:00 (MAP - Monoammonium Phosphate)",
         role: "Starter & Seedling Establishment",
+        image: "/NPK 126100.webp",
         desc: "FEATURES:\n• The high phosphorus content is important for establishing a strong root system, especially during the early stages of plant growth.\n• It is highly soluble in water, making it suitable for drip irrigation.\n• Phosphorus plays an essential role in flower and fruit development.\n• Suitable for a wide range of crops including vegetables, fruits, and ornamentals.\n\nCOMPOSITION:\n• Nitrogen (As N) : 12.0% w/w min\n• Water Soluble Phosphorus (as P₂O₅) : 61.0% w/w min\n• Total Soluble Potassium (as K₂O) : 00.0% w/w max\n• Matter Insoluble In Water : 0.5% w/w max\n• Moisture : 0.5% w/w max\n\nDose: 2 To 3 Kg per Acre",
         badge: "Regular Grade",
         subCategory: "Regular Grades (9)",
@@ -139,6 +143,7 @@ const categoryDetails = {
       {
         name: "NPK 00:52:34 (MKP - Monopotassium Phosphate)",
         role: "Pre-Bloom & Flower Induction",
+        image: "/NPK 005234.webp",
         desc: "FEATURES:\n• This fertilizer is typically low in chloride, sodium, and other harmful materials, making it safe for crops.\n• It can be used in various irrigation systems and for a wide range of crops, including fruits, vegetables, cereals, and more.\n• It can enhance fruit size, shelf life, and overall quality.\n• The water-soluble formula ensures quick uptake by plants for immediate benefits.\n• Suitable for a wide range of plants, including flowers, fruits, and vegetables.\n\nCOMPOSITION:\n• Nitrogen (As N) : 00.0% w/w min\n• Water Soluble Phosphorus (as P₂O₅) : 52.0% w/w min\n• Total Soluble Potassium (as K₂O) : 34.0% w/w max\n• Matter Insoluble In Water : 0.5% w/w max\n• Moisture : 0.5% w/w max\n\nDose: 2 To 3 Kg per Acre",
         badge: "Regular Grade",
         subCategory: "Regular Grades (9)",
@@ -146,6 +151,7 @@ const categoryDetails = {
       {
         name: "NPK 00:00:50 (SOP - Potassium Sulphate)",
         role: "Fruit Firmness, Luster & Shelf Life",
+        image: "/NPK 000050.webp",
         desc: "FEATURES:\n• NPK 00:00:50 can improve the plant's ability to absorb other essential nutrients. It dissolves readily in water, making it suitable for fertigation.\n• Potassium is essential for fruit development, and this fertilizer helps enhance fruit size, color, and overall quality.\n• Potassium helps plants withstand drought and other environmental stresses.\n• NPK 00:00:50 is suitable for a wide range of crops, including fruits, vegetables, flowers, and field crops.\n\nCOMPOSITION:\n• Nitrogen (As N) : 00.0% w/w min\n• Water Soluble Phosphorus (as P₂O₅) : 00.0% w/w min\n• Total Soluble Potassium (as K₂O) : 50.0% w/w max\n• Matter Insoluble In Water : 0.5% w/w max\n• Moisture : 0.5% w/w max\n\nDose: 2 To 3 Kg per Acre",
         badge: "Regular Grade",
         subCategory: "Regular Grades (9)",
@@ -153,6 +159,7 @@ const categoryDetails = {
       {
         name: "NPK 00:60:20",
         role: "High-Phosphorus Bloom Accelerator",
+        image: "/NPK 006020.webp",
         desc: "FEATURES:\n• It is primarily used to support flowering, fruit development, and overall plant health during critical growth stages.\n• High phosphorus content supports root development.\n• The balanced nutrient ratio promotes better flower and fruit set.\n• Potassium helps plants cope with environmental stress.\n• Helps reduce flower dropping.\n• It is commonly used on fruit crops, vegetables, flowers, and ornamental plants.\n\nCOMPOSITION:\n• Nitrogen (As N) : 00.0% w/w min\n• Water Soluble Phosphorus (as P₂O₅) : 60.0% w/w min\n• Total Soluble Potassium (as K₂O) : 20.0% w/w max\n• Matter Insoluble In Water : 0.5% w/w max\n• Moisture : 0.5% w/w max\n\nDose: 2 To 3 Kg per Acre",
         badge: "Regular Grade",
         subCategory: "Regular Grades (9)",
@@ -160,6 +167,7 @@ const categoryDetails = {
       {
         name: "NPK 00:00:23",
         role: "Rapid Potassium Delivery Formulation",
+        image: "/NPK 000023.webp",
         desc: "FEATURES:\n• It dissolves easily in water.\n• Supports the development of healthy and high-quality fruits.\n• Helps increase overall yield and improves the quality of harvested produce.\n• Strengthens the plant and helps it withstand environmental stressors.\n• It is suitable for various crops, including vegetables, fruits, and other field crops during key growth stages.\n\nCOMPOSITION:\n• Nitrogen (As N) : 00.0% w/w min\n• Water Soluble Phosphorus (as P₂O₅) : 00.0% w/w min\n• Total Soluble Potassium (as K₂O) : 23.0% w/w max\n• Matter Insoluble In Water : 0.5% w/w max\n• Moisture : 0.5% w/w max\n\nDose: 2 To 3 Kg per Acre",
         badge: "Regular Grade",
         subCategory: "Regular Grades (9)",
@@ -167,6 +175,7 @@ const categoryDetails = {
       {
         name: "Calcium Nitrate",
         role: "Cell Wall Rigidity & Tissue Strength",
+        image: "/Calcium Nitrate.webp",
         desc: "FEATURES:\n• It is available in granular, liquid, and prilled forms, all of which are water-soluble.\n• By strengthening cell walls and improving nutrient uptake, it can also support root growth and development.\n• It can improve the uptake of other essential nutrients like potassium, magnesium, and other cations from the soil.\n• By strengthening cell walls and improving overall plant health, it can help prevent fruit cracking.\n\nCOMPOSITION:\n• Total Nitrogen (Ammoniacal & Nitrate Form) : 15.5% w/w min\n• Water Soluble Calcium (as Ca) : 50.0% w/w min\n• Nitrate Nitrogen (as N) : 14.5% w/w min\n• Matter Insoluble In Water : 2.5% w/w min\n\nDose: 2 To 3 Kg per Acre",
         badge: "Regular Grade",
         subCategory: "Regular Grades (9)",
@@ -176,6 +185,7 @@ const categoryDetails = {
       {
         name: "00:42:47 (Special Polyphosphate Grade)",
         role: "Extended Phosphate Availability",
+        image: "/004247.webp",
         desc: "FEATURES:\n• This formulation is designed to promote flowering, fruit setting, and overall crop productivity, particularly in fruit-bearing and flowering plants. It also supports root development and helps plants tolerate various stresses.\n• The high levels of phosphorus and potassium are important for plant energy transfer, root development, and sugar synthesis.\n• Potassium helps strengthen plant structures.\n\nCOMPOSITION:\n• Nitrogen (As N) : 00.0% w/w min\n• Water Soluble Phosphorus (as P₂O₅) : 42.0% w/w min\n• Total Soluble Potassium (as K₂O) : 47.0% w/w max\n• Matter Insoluble In Water : 0.5% w/w max\n• Moisture : 0.5% w/w max\n\nDose: 2 To 3 Kg per Acre",
         badge: "Polyphosphate",
         subCategory: "Polyphosphate Grades (4)",
@@ -183,6 +193,7 @@ const categoryDetails = {
       {
         name: "00:40:44 (Special Polyphosphate Grade)",
         role: "Non-Clogging Fertigation P-K",
+        image: "/NPK 004044.webp",
         desc: "FEATURES:\n• This balanced blend of macronutrients and micronutrients supports various plant physiological processes, promoting healthy growth, improved yield, and better quality of produce.\n• Specifically, iron plays an important role in chlorophyll synthesis, enhancing photosynthesis and helping prevent chlorosis.\n• The 100% water-soluble nature ensures rapid and efficient nutrient uptake by plants, reducing waste and improving availability.\n\nCOMPOSITION:\n• Nitrogen (As N) : 00.0% w/w min\n• Water Soluble Phosphorus (as P₂O₅) : 40.0% w/w min\n• Total Soluble Potassium (as K₂O) : 44.0% w/w max\n• Matter Insoluble In Water : 0.5% w/w max\n• Moisture : 0.5% w/w max\n\nDose: 2 To 3 Kg per Acre",
         badge: "Polyphosphate",
         subCategory: "Polyphosphate Grades (4)",
@@ -190,6 +201,7 @@ const categoryDetails = {
       {
         name: "00:33:65 (Special Polyphosphate Grade)",
         role: "Ultra-Potassium Polyphosphate Matrix",
+        image: "/003365.webp",
         desc: "FEATURES:\n• The \"TE\" indicates the presence of trace elements, which are essential micronutrients for plant health.\n• This specific NPK ratio (0-33-65) is designed to support flowering, fruiting, and overall plant vigor while minimizing vegetative growth.\n• These are micronutrients like iron, zinc, manganese, etc., which are important for various enzymatic reactions and overall plant metabolism. They are often chelated (complexed with organic molecules) to improve their availability to plants.\n\nCOMPOSITION:\n• Nitrogen (As N) : 00.0% w/w min\n• Water Soluble Phosphorus (as P₂O₅) : 33.0% w/w min\n• Total Soluble Potassium (as K₂O) : 65.0% w/w max\n• Matter Insoluble In Water : 0.5% w/w max\n• Moisture : 0.5% w/w max\n\nDose: 2 To 3 Kg per Acre",
         badge: "Polyphosphate",
         subCategory: "Polyphosphate Grades (4)",
@@ -197,6 +209,7 @@ const categoryDetails = {
       {
         name: "00:43:56 (Special Polyphosphate Grade)",
         role: "Balanced Soluble Polyphosphate",
+        image: "/004356.webp",
         desc: "FEATURES:\n• This formulation is particularly high in potassium, making it suitable for crops requiring this nutrient, especially during fruit development and maturation.\n• The trace elements (TE) ensure a balanced supply of micronutrients for optimal plant health and growth.\n• The fertilizer can promote vigorous root development, enhance flowering and fruit set, improve fruit quality and yield, and increase plants' resistance to stress.\n• It is suitable for crops during flowering, fruiting, and maturation stages, including fruits, vegetables, flowers, and ornamentals.\n\nCOMPOSITION:\n• Nitrogen (As N) : 00.0% w/w min\n• Water Soluble Phosphorus (as P₂O₅) : 43.0% w/w min\n• Total Soluble Potassium (as K₂O) : 56.0% w/w max\n• Matter Insoluble In Water : 0.5% w/w max\n• Moisture : 0.5% w/w max\n\nDose: 2 To 3 Kg per Acre",
         badge: "Polyphosphate",
         subCategory: "Polyphosphate Grades (4)",
@@ -206,6 +219,7 @@ const categoryDetails = {
       {
         name: "00:09:46 (Special Oxide Grade)",
         role: "Concentrated Potassium Oxide Blend",
+        image: "/000946.webp",
         desc: "FEATURES:\n• This specific formulation (00:09:46) is high in potassium and phosphorus, with no nitrogen, making it suitable for crops where potassium and phosphorus are required, especially during fruit development or when nitrogen levels are already sufficient.\n• The absence of nitrogen in this formulation means it is not ideal for promoting vegetative growth (leaf development) but is suitable when nitrogen levels are already adequate or when avoiding excessive nitrogen.\n\nCOMPOSITION:\n• Nitrogen (As N) : 00.0% w/w min\n• Water Soluble Phosphorus (as P₂O₅) : 09.0% w/w min\n• Total Soluble Potassium (as K₂O) : 46.0% w/w max\n• Matter Insoluble In Water : 0.5% w/w max\n• Moisture : 0.5% w/w max\n\nDose: 2 To 3 Kg per Acre",
         badge: "Oxide Grade",
         subCategory: "Oxide Grades (9)",
@@ -213,6 +227,7 @@ const categoryDetails = {
       {
         name: "08:00:47 (Special Oxide Grade)",
         role: "Nitrogen-Potassium Oxide Complex",
+        image: "/080047.webp",
         desc: "FEATURES:\n• This specific formulation is often used to enhance crop quality, particularly by increasing protein and oil content in seeds.\n• It can be applied through fertigation (mixing with irrigation water) or foliar spray.\n• This fertilizer often includes sulphur (S), which enhances the effectiveness of other nutrients and improves crop quality.\n• Supports improved fruit bearing and quality.\n\nCOMPOSITION:\n• Nitrogen (As N) : 08.0% w/w min\n• Water Soluble Phosphorus (as P₂O₅) : 00.0% w/w min\n• Total Soluble Potassium (as K₂O) : 47.0% w/w max\n• Matter Insoluble In Water : 0.5% w/w max\n• Moisture : 0.5% w/w max\n\nDose: 2 To 3 Kg per Acre",
         badge: "Oxide Grade",
         subCategory: "Oxide Grades (9)",
@@ -220,6 +235,7 @@ const categoryDetails = {
       {
         name: "10:54:10 (Special Oxide Grade)",
         role: "Ultra-Phosphate Oxide Starter",
+        image: "/105410.webp",
         desc: "FEATURES:\n• NPK 10:54:10 is a water-soluble fertilizer primarily used to support root development and flowering in plants.\n• This high phosphorus content (54%) makes it particularly useful during early growth stages, transplanting, and for flowering plants.\n• Potassium plays an important role in overall plant health, including disease resistance and water regulation.\n• It is a popular choice for flowering plants, as phosphorus is essential for strong blooms and fruit production.\n\nCOMPOSITION:\n• Nitrogen (As N) : 10.0% w/w min\n• Water Soluble Phosphorus (as P₂O₅) : 54.0% w/w min\n• Total Soluble Potassium (as K₂O) : 10.0% w/w max\n• Matter Insoluble In Water : 0.5% w/w max\n• Moisture : 0.5% w/w max\n\nDose: 2 To 3 Kg per Acre",
         badge: "Oxide Grade",
         subCategory: "Oxide Grades (9)",
@@ -227,6 +243,7 @@ const categoryDetails = {
       {
         name: "00:37:37 (Special Oxide Grade)",
         role: "Equi-Ratio P-K Oxide Nutrition",
+        image: "/003737.webp",
         desc: "FEATURES:\n• NPK 00:37:37 is a water-soluble fertilizer with a high concentration of phosphorus and potassium.\n• This fertilizer is often used to support root development, increase yield, and improve the overall quality of crops.\n• It is particularly effective during flowering and fruit development to encourage robust growth and development of flowers and fruits.\n• It is suitable for a wide range of crops, including agricultural crops, flowers, trees, and grasses.\n\nCOMPOSITION:\n• Nitrogen (As N) : 00.0% w/w min\n• Water Soluble Phosphorus (as P₂O₅) : 37.0% w/w min\n• Total Soluble Potassium (as K₂O) : 37.0% w/w max\n• Matter Insoluble In Water : 0.5% w/w max\n• Moisture : 0.5% w/w max\n\nDose: 2 To 3 Kg per Acre",
         badge: "Oxide Grade",
         subCategory: "Oxide Grades (9)",
@@ -234,6 +251,7 @@ const categoryDetails = {
       {
         name: "00:48:47 (Special Oxide Grade)",
         role: "High-Density P-K Oxide Grade",
+        image: "/004847.webp",
         desc: "FEATURES:\n• NPK 00:48:47 is a water-soluble fertilizer blend primarily composed of Phosphorus (P) and Potassium (K), with no nitrogen (N).\n• It is used to support flowering, fruit setting, and overall plant energy metabolism, particularly when nitrogen is already sufficient.\n• Potassium helps improve fruit size, color, and shelf life.\n• It is often recommended for fruits, vegetables, and other crops where nitrogen levels are adequate.\n\nCOMPOSITION:\n• Nitrogen (As N) : 00.0% w/w min\n• Water Soluble Phosphorus (as P₂O₅) : 48.0% w/w min\n• Total Soluble Potassium (as K₂O) : 47.0% w/w max\n• Matter Insoluble In Water : 0.5% w/w max\n• Moisture : 0.5% w/w max\n\nDose: 2 To 3 Kg per Acre",
         badge: "Oxide Grade",
         subCategory: "Oxide Grades (9)",
@@ -241,6 +259,7 @@ const categoryDetails = {
       {
         name: "00:44:29 (Special Oxide Grade)",
         role: "High-Phosphate Oxide Formulation",
+        image: "/004429.webp",
         desc: "FEATURES:\n• It is a controlled-release fertilizer, meaning the nutrients are released gradually over time.\n• This type of fertilizer is designed to dissolve easily in water, making it suitable for application through irrigation systems or as a foliar spray.\n• NPK 00:44:29 can improve soil fertility, support root growth, and increase crop yields and overall quality.\n• It can be used for various crops, including vegetables, fruits, and ornamental plants.\n\nCOMPOSITION:\n• Nitrogen (As N) : 00.0% w/w min\n• Water Soluble Phosphorus (as P₂O₅) : 44.0% w/w min\n• Total Soluble Potassium (as K₂O) : 29.0% w/w max\n• Matter Insoluble In Water : 0.5% w/w max\n• Moisture : 0.5% w/w max\n\nDose: 2 To 3 Kg per Acre",
         badge: "Oxide Grade",
         subCategory: "Oxide Grades (9)",
@@ -248,6 +267,7 @@ const categoryDetails = {
       {
         name: "30:10:10 (Special Oxide Grade)",
         role: "High-Nitrogen Vegetative Booster",
+        image: "/301010.webp",
         desc: "FEATURES:\n• It is a water-soluble fertilizer with a high nitrogen content, primarily used during the vegetative growth phase to support strong foliage and stem development.\n• This specific ratio is often preferred for leafy vegetables and other plants where robust leaf growth is desired.\n• Commonly used for leafy greens (lettuce, spinach), tomatoes, peppers, and fruit trees.\n• Easily dissolves in water for foliar or drip irrigation application.\n\nCOMPOSITION:\n• Nitrogen (As N) : 30.0% w/w min\n• Water Soluble Phosphorus (as P₂O₅) : 10.0% w/w min\n• Total Soluble Potassium (as K₂O) : 10.0% w/w max\n• Matter Insoluble In Water : 0.5% w/w max\n• Moisture : 0.5% w/w max\n\nDose: 2 To 3 Kg per Acre",
         badge: "Oxide Grade",
         subCategory: "Oxide Grades (9)",
@@ -255,6 +275,7 @@ const categoryDetails = {
       {
         name: "05:55:17 (Special Oxide Grade)",
         role: "Flower Burst & Root Mass Accelerator",
+        image: "/055517.webp",
         desc: "FEATURES:\n• It's designed to support strong root development and early plant growth, particularly beneficial for crops that require high phosphorus levels.\n• It often contains trace elements (TE) like iron, manganese, zinc, copper, boron, and molybdenum.\n• The high phosphorus content (55%) is important for root development, flowering, and overall plant vigor.\n• NPK 05:55:17 is suitable for various crops and can be applied during different growth stages, including the early stages for root development and during flowering and grain filling.\n\nCOMPOSITION:\n• Nitrogen (As N) : 05.0% w/w min\n• Water Soluble Phosphorus (as P₂O₅) : 55.0% w/w min\n• Total Soluble Potassium (as K₂O) : 17.0% w/w max\n• Matter Insoluble In Water : 0.5% w/w max\n• Moisture : 0.5% w/w max\n\nDose: 2 To 3 Kg per Acre",
         badge: "Oxide Grade",
         subCategory: "Oxide Grades (9)",
@@ -262,6 +283,7 @@ const categoryDetails = {
       {
         name: "14:48:00 (Special Oxide Grade)",
         role: "Nitrogen-Phosphate Oxide Starter",
+        image: "/144800.webp",
         desc: "FEATURES:\n• It's designed to support strong root development, flowering, and fruit setting in plants.\n• The fertilizer also contains trace elements for enhanced nutrient absorption and can help reduce nutrient imbalances.\n• The fertilizer also includes trace elements like iron, manganese, and zinc, which are important for nutrient absorption and utilization by the plant.\n\nCOMPOSITION:\n• Nitrogen (As N) : 14.0% w/w min\n• Water Soluble Phosphorus (as P₂O₅) : 48.0% w/w min\n• Total Soluble Potassium (as K₂O) : 00.0% w/w max\n• Matter Insoluble In Water : 0.5% w/w max\n• Moisture : 0.5% w/w max\n\nDose: 2 To 3 Kg per Acre",
         badge: "Oxide Grade",
         subCategory: "Oxide Grades (9)",
@@ -453,7 +475,7 @@ const categoryDetails = {
       "Individual EDTA trace minerals: Zinc 12%, Iron 12%, Copper 12%, Manganese 12%, Calcium 10%, Magnesium 6%, Boron 20%",
       "Specialty multi-nutrient combinations: State Grade-1 & Grade-2, Mix Drip, Cal+Mg+Boron, Zinc+Boron",
     ],
-    primaryImage: "/breadcrumb--1.webp",
+    primaryImage: "/EDDHAFerrous.webp",
     icon: FlaskConical,
     iconColor: "text-logo-red",
     specs: [
@@ -511,6 +533,7 @@ const categoryDetails = {
       {
         name: "EDTA Zinc 12%",
         role: "Auxin Synthesis & Internode Elongation",
+        image: "/EDTAZinc.webp",
         desc: "FEATURES:\n• It is a chelated micronutrient fertilizer containing 12% zinc, a water-soluble powder used to prevent and correct zinc deficiency in crops.\n• A water-soluble, powder-based fertilizer that supplies essential zinc to plants.\n• The EDTA chelation helps keep zinc readily available to plants, especially under challenging soil conditions.\n• Essential for chlorophyll synthesis, enzyme activity, and hormone production, supporting improved growth, root development, and higher crop yields.\n\nCOMPOSITION:\n• Zinc Content (expressed as Zn) : 12.0% (% by weight Minimum in the form of Zn-EDTA)\n• pH (5% Solution) : 6.0 – 6.5%\n• Lead (as Pb) % by weight Minimum : 0.003%\n• Cadmium (as Cd) % by weight Maximum : 0.0025%\n• Arsenic (as As) % by weight Maximum : 0.01%\n\nDose: 1 Gram per Liter",
         badge: "EDTA Zn 12%",
         subCategory: "Single Elements (7)",
@@ -518,6 +541,7 @@ const categoryDetails = {
       {
         name: "EDTA Ferrous 12%",
         role: "Chlorophyll Synthesis & Electron Transfer",
+        image: "/EDDHAFerrous.webp",
         desc: "FEATURES:\n• A water-soluble fertilizer containing 12% iron.\n• The iron is \"chelated\" by EDTA (Ethylene diamine tetra acetic acid), a chemical agent that keeps the iron stable and accessible to plants.\n• The chelating agent makes iron available to plants even in soils with high pH levels, where iron might otherwise become locked up and unavailable.\n• It is commonly used in foliar sprays or soil applications for various crops to support growth, yield, and overall plant health.\n\nCOMPOSITION:\n• Iron Content (expressed as Fe) : 12.0% (% by weight Minimum in the form of Fe-EDTA)\n• pH (5% Solution) : 5.5 – 6.5%\n• Lead (as Pb) % by weight Minimum : 0.003%\n• Cadmium (as Cd) % by weight Maximum : 0.0025%\n• Arsenic (as As) % by weight Maximum : 0.01%\n\nDose: 1 Gram per Liter",
         badge: "EDTA Fe 12%",
         subCategory: "Single Elements (7)",
@@ -525,6 +549,7 @@ const categoryDetails = {
       {
         name: "EDTA Copper 12%",
         role: "Lignin Synthesis & Respiration Enzymes",
+        image: "/EDTACopper.webp",
         desc: "FEATURES:\n• EDTA Copper is a chelated form of the micronutrient copper, where copper ions are bonded to EDTA (ethylenediaminetetraacetic acid) to create a stable, water-soluble complex.\n• Primarily used in agriculture as a micronutrient fertilizer, it helps prevent and correct copper deficiencies in plants by supporting chlorophyll formation, enzyme activity, and overall plant growth.\n• It stimulates enzymes that are important for growth and supports the metabolism of proteins and carbohydrates.\n\nCOMPOSITION:\n• Copper Content (expressed as Cu) : 12.00% (% by weight Minimum in the form of Cu-EDTA)\n• pH (5% Solution) : 5.5 – 6.5%\n• Lead (as Pb) % by weight Minimum : 0.003%\n• Cadmium (as Cd) % by weight Maximum : 0.0025%\n• Arsenic (as As) % by weight Maximum : 0.01%\n• Matter Insoluble In Water % By Weight Max. : 0.5%\n\nDose: 1 Gram per Liter",
         badge: "EDTA Cu 12%",
         subCategory: "Single Elements (7)",
@@ -532,6 +557,7 @@ const categoryDetails = {
       {
         name: "EDTA Manganese 12%",
         role: "Nitrogen Assimilation & Water Photolysis",
+        image: "/EDTAManganese.webp",
         desc: "FEATURES:\n• It is a water-soluble product used to prevent manganese deficiency across various crops, supporting vital plant functions such as photosynthesis, enzyme activity, nitrogen metabolism, and root development, especially in hydroponic systems.\n• The EDTA chelate makes manganese readily available for plant absorption, improving its bioavailability and uptake efficiency.\n• Helps plants become more resistant to stress and root pathogens.\n\nCOMPOSITION:\n• Manganese Content (expressed as Mn) : 12.0% (% by weight Minimum in the form of Mn-EDTA)\n• pH (5% Solution) : 6.0 – 7.0%\n• Lead (as Pb) % by weight Minimum : 0.003%\n• Cadmium (as Cd) % by weight Maximum : 0.0025%\n• Arsenic (as As) % by weight Maximum : 0.01%\n• Matter Insoluble In Water % By Weight Max. : 0.5%\n\nDose: 1 Gram per Liter",
         badge: "EDTA Mn 12%",
         subCategory: "Single Elements (7)",
@@ -539,6 +565,7 @@ const categoryDetails = {
       {
         name: "EDTA Calcium 10%",
         role: "Direct Foliar Calcium Uptake",
+        image: "/EDTACalcium.webp",
         desc: "10% organically chelated calcium that bypasses calcium mobility bottlenecks to fortify growing tips, flowers, and fruit skin.",
         badge: "EDTA Ca 10%",
         subCategory: "Single Elements (7)",
@@ -546,6 +573,7 @@ const categoryDetails = {
       {
         name: "EDTA Magnesium 6%",
         role: "Central Chlorophyll Core Delivery",
+        image: "/EDTAMagnesium6.webp",
         desc: "6% chelated magnesium supporting the core photosynthetic molecule, preventing premature lower leaf yellowing and senescence.",
         badge: "EDTA Mg 6%",
         subCategory: "Single Elements (7)",
@@ -553,6 +581,7 @@ const categoryDetails = {
       {
         name: "EDTA Boron 20%",
         role: "Pollination & Pollen Tube Viability",
+        image: "/EDTABORON.webp",
         desc: "High-percentage soluble chelated/complexed boron powder essential for flower pollen viability, sugar translocation, and preventing fruit cracking.",
         badge: "Boron 20% ",
         subCategory: "Single Elements (7)",
@@ -562,6 +591,7 @@ const categoryDetails = {
       {
         name: "EDTA Calcium + Boron (10% + 2%)",
         role: "Cell Wall Rigidity & Fruit Firmness",
+        image: "/EDTACalcium+Boron.webp",
         desc: "FEATURES:\n• EDTA Calcium + Boron is an agrochemical product combining the secondary nutrient calcium and the micronutrient boron into a water-soluble, chelated form for plant use.\n• EDTA (ethylenediaminetetraacetic acid) chelates calcium and boron, keeping them stable and readily available for plant uptake in various soil and foliar applications, supporting crop yield, quality, and stress resistance.\n• The combined effects of calcium and boron improve a plant's ability to withstand stresses such as drought and heat.\n\nCOMPOSITION:\n• Calcium Content (expressed as Ca) : 01% to 11% % by weight\n• Boron Content (expressed as B) : 0.5% to 20% % by weight\n\nDose: 1 Gram per Liter",
         badge: "Ca 10% + B 2%",
         subCategory: "Synergistic Combos (4)",
@@ -569,6 +599,7 @@ const categoryDetails = {
       {
         name: "EDTA Cal + Mg + Boron (6% + 6% + 2%)",
         role: "Triple Secondary & Micronutrient Defense",
+        image: "/EDTACALMGBORON.webp",
         desc: "FEATURES:\n• It is a chelated micronutrient fertilizer for plants, containing EDTA-chelated calcium, magnesium, and boron, which supports plant nutrient absorption, growth, and crop quality.\n• It supports cell elongation, fertilization, and the development of reproductive organs in plants.\n• It helps plants withstand both cold and heat by improving their overall ability to resist climatic conditions.\n• The product is 100% water-soluble, making it easy to dissolve and apply.\n\nCOMPOSITION:\n• Calcium Content (expressed as Ca) : 05% to 15% % by weight\n• Magnesium Content (expressed as Mg) : 02% to 08% % by weight\n• Boron Content (expressed as B) : 01% to 03% % by weight\n\nDose: 1 Gram per Liter",
         badge: "Ca + Mg + B",
         subCategory: "Synergistic Combos (4)",
@@ -576,6 +607,7 @@ const categoryDetails = {
       {
         name: "EDTA Zinc + Boron (13% + 3%)",
         role: "Vegetative & Reproductive Synergy",
+        image: "/EDTAZINCBORON.webp",
         desc: "FEATURES:\n• EDTA Zinc + Boron is an agricultural product combining chelated zinc and boron, essential micronutrients for plant health, into a readily available, water-soluble form for foliar application or soil enrichment.\n• EDTA acts as a chelating agent, binding to the metal ions of zinc and boron, which improves their absorption by plants and helps prevent them from becoming unavailable in the soil, supporting growth, yield, and overall plant quality.\n• Helps prevent visual symptoms, deformations, and reduced growth caused by a lack of zinc and boron.\n\nCOMPOSITION:\n• Zinc Content (expressed as Zn) : 02% to 25% % by weight\n• Boron Content (expressed as B) : 0.15% to 10% % by weight\n\nDose: 1 Gram per Liter",
         badge: "Zn 13% + B 3%",
         subCategory: "Synergistic Combos (4)",
@@ -583,6 +615,7 @@ const categoryDetails = {
       {
         name: "EDTA Mix Micronutrients G-2",
         role: "State Grade-2 Balanced Chelate",
+        image: "/EDTAMIXMICRONUTRINTG-2.webp",
         desc: "FEATURES:\n• EDTA mix micronutrient G2 is a powder fertilizer containing several essential micronutrients like Iron (Fe), Zinc (Zn), Manganese (Mn), Copper (Cu), Boron (B), and Molybdenum (Mo), all chelated with EDTA to support rapid and efficient absorption by plants.\n• This type of fertilizer is used to correct deficiencies, support overall plant health, accelerate growth, and improve fruit and vegetable quality by ensuring plants receive these vital nutrients during critical growth stages.\n• The fertilizer is designed to dissolve completely in water, making it suitable for both foliar sprays and drip irrigation.\n\nCOMPOSITION:\n• Fe : 2.5%\n• Mn : 1.0%\n• Zn : 3.0%\n• Mo : 0.10%\n• Cu : 1.0%\n• B : 0.5%\n\nDose: 1 Gram per Liter",
         badge: "Grade-2 Standard",
         subCategory: "Synergistic Combos (4)",
@@ -592,6 +625,7 @@ const categoryDetails = {
       {
         name: "EDDHA Ferrous 6%",
         role: "High-pH Alkaline Soil Iron Chelate",
+        image: "/EDDHAFerrous.webp",
         desc: "FEATURES:\n• EDDHA Ferrous 6% is an organic chelated iron fertilizer that supplies plants with soluble iron, essential for chlorophyll and enzyme production, and is effective in high pH soils.\n• It corrects iron chlorosis (yellowing of leaves) by supplying readily absorbed iron to the plant, supporting healthy growth and improving crop quality.\n• The EDDHA chelate protects the iron, making it available for plant uptake and supporting rapid recovery from deficiency symptoms.\n• Suitable for both soil application and use in drip irrigation/fertigation systems.\n\nCOMPOSITION:\n• Ferrous Content (expressed as Fe) : 06.00% % by weight Minimum\n• pH (1% Solution) : 9.0 ± 1.0%\n\nDose: 1 Gram per Liter",
         badge: "Alkaline Soil (pH 9+)",
         subCategory: "Specialty Drip & Soil (3)",
@@ -599,6 +633,7 @@ const categoryDetails = {
       {
         name: "Mix Micronutrients Drip",
         role: "100% Soluble Drip Fertigation Formula",
+        image: "/MIXMICRONUTRIENTDRIP.webp",
         desc: "FEATURES:\n• \"Micronutrient drip\" involves dissolving water-soluble, chelated micronutrient powder in water for drip irrigation, correcting deficiencies and supporting crop health.\n• Helps give fruits and vegetables their desired color and texture.\n• Increases a plant's natural resistance to diseases and pests.\n• Contributes to higher yields of superior quality crops.\n• Addresses a wide range of micronutrient deficiencies in plants.\n\nCOMPOSITION:\n• Zinc (as Zn) % by weight Minimum : 05.00%\n• Ferrous (as Fe) % by weight Minimum : 02.00%\n• Manganese (as Mn) % by weight Minimum : 01.00%\n• Copper (as Cu) % by weight Maximum : 0.5%\n• Boron (as B) % by weight Maximum : 01.00%\n\nDose: 1 Gram per Liter",
         badge: "100% Drip Soluble",
         subCategory: "Specialty Drip & Soil (3)",
@@ -606,6 +641,7 @@ const categoryDetails = {
       {
         name: "EDTA Mix Micronutrient Grade 1",
         role: "Official FCO Grade-1 Chelate",
+        image: "/MIXMICRONUTRIENTGRADE-1.webp",
         desc: "FEATURES:\n• A Mix Micronutrient Grade 1 is a highly concentrated, powdered agricultural fertilizer containing essential trace elements like Zinc (Zn), Iron (Fe), Manganese (Mn), Copper (Cu), Boron (B), and Molybdenum (Mo) in an optimum ratio to support plant growth and development.\n• These nutrients, which are important for processes such as photosynthesis and enzyme activation, are easily absorbed by plants through roots or leaves, helping correct deficiencies and improve overall crop health and yield.\n• Strengthens plant cell walls and supports overall disease resistance.\n\nCOMPOSITION:\n• Fe : 2.5%\n• Mn : 1.0%\n• Zn : 3.0%\n• Mo : 0.10%\n• Cu : 1.0%\n• B : 0.5%\n\nDose: 1 Gram per Liter",
         badge: "Grade-1 Standard",
         subCategory: "Specialty Drip & Soil (3)",
@@ -641,7 +677,7 @@ const categoryDetails = {
       "Rapidly absorbed Calcium Oxide 11% and liquid Boron 11% for cell wall and flower health",
       "Synergistic Calcium + Boron (6% + 6%) liquid suspension for fruit firmness",
     ],
-    primaryImage: "/breadcrumb--2.webp",
+    primaryImage: "/ZINCOXIDE.webp",
     icon: TestTube,
     iconColor: "text-logo-blue",
     specs: [
@@ -672,6 +708,7 @@ const categoryDetails = {
       {
         name: "Zinc Oxide 39.5%",
         role: "Ultra-High Density Zinc Suspension (SC)",
+        image: "/ZINCOXIDE.webp",
         desc: "FEATURES:\n• Zinc oxide 39.5% refers to agricultural fertilizer products containing 39.5% zinc oxide (ZnO) in a Suspension Concentrate (SC) formulation.\n• This formulation provides a high level of zinc, allowing for a lower dosage compared to other zinc fertilizers.\n• Nanoparticles in the formulation allow for quick absorption by plants while providing a sustained release of zinc over time.\n• It supports the development of a strong and dense root system.\n\nCOMPOSITION:\n• Zinc Content (expressed as Zn) % by weight Minimum : 39.5%\n• pH (5% Solution) : 9.0-10.1\n• Lead (as Pb) % by weight Minimum : 0.003%\n• Cadmium (as Cd) % by weight Maximum : 0.0025%\n• Arsenic (as As) % by weight Maximum : 0.01%\n\nDose: 1 Gram per Liter",
         badge: "Flowable SC 39.5%",
         subCategory: "Suspension Concentrates & Liquids (4)",
@@ -679,6 +716,7 @@ const categoryDetails = {
       {
         name: "Calcium Oxide 11%",
         role: "Rapid Foliar Calcium Flowable",
+        image: "/CALCIUMOXIDE.webp",
         desc: "FEATURES:\n• It is a concentrated, soluble liquid fertilizer with a high concentration of calcium (11%).\n• It provides calcium directly to plants, helping correct deficiencies that restrict active growth.\n• It strengthens plant cell walls, which supports root development and overall plant structure.\n• It can improve the quality of produce and increase its shelf life.\n• It helps plants become more resilient to various stresses.\n\nCOMPOSITION:\n• Calcium Content (expressed as Ca) % by weight Minimum : 11.0%\n• pH (5% Solution) : 9.0-10.1%\n\nDose: 1 Gram per Liter",
         badge: "Liquid 11%",
         subCategory: "Suspension Concentrates & Liquids (4)",
@@ -686,6 +724,7 @@ const categoryDetails = {
       {
         name: "Boron Liquid 11%",
         role: "Phloem-Mobile Liquid Organo-Boron",
+        image: "/BORONLIQUID.webp",
         desc: "FEATURES:\n• A liquid boron 11% product is a micronutrient fertilizer, commonly made with boron ethanolamine, that helps plants correct or prevent boron deficiency.\n• It is water-soluble for easy absorption by crops through foliar application, or it can be applied to the soil.\n• Boron is an important micronutrient for cell wall formation, cell division, fruit and seed development, and the movement of sugars to growing plant parts.\n• It promotes the mobility of calcium within the plant, which is important for preventing disorders such as fruit cracking and rot.\n• The application of boron can increase a plant's drought and heat resistance.\n\nCOMPOSITION:\n• Boron Content (expressed as B) % by weight Minimum : 11.0%\n• pH (5% Solution) : 8.5 - 10.%\n• Lead (as Pb) % by weight Minimum : 0.003%\n• Cadmium (as Cd) % by weight Maximum : 0.0025%\n• Arsenic (as As) % by weight Maximum : 0.01%\n\nDose: 1 Gram per Liter",
         badge: "Soluble Liquid 11%",
         subCategory: "Suspension Concentrates & Liquids (4)",
@@ -693,6 +732,7 @@ const categoryDetails = {
       {
         name: "Calcium + Boron (6% + 6%)",
         role: "Balanced Liquid Sizing & Firmness Duo",
+        image: "/CalciumBoron.webp",
         desc: "FEATURES:\n• Cal + Boron (6%+6%) refers to a plant fertilizer blend supplying both calcium and boron, with these micronutrients present at approximately 6% each, though the exact percentage of calcium may vary, such as 5.7% in IFC Cal-Boron.\n• This water-soluble product supports fruit setting, helps prevent deficiencies, strengthens cell walls, and is applied through drip irrigation or foliar spraying to support crop quality and yield.\n• Calcium and boron work together to support pollination, help prevent premature fruit and flower drop, and improve overall fruit quality.\n\nCOMPOSITION:\n• Calcium Content (expressed as Ca) % by weight : 5.7%\n• Boron Content (expressed as B) % by weight : 6%\n\nDose: 1 Gram per Liter",
         badge: "6% Ca + 6% B",
         subCategory: "Suspension Concentrates & Liquids (4)",
@@ -726,7 +766,7 @@ const productsData = [
     badge: "22 Technical Grades",
     desc: "Complete portfolio of 9 Regular NPK Grades (19:19:19, 13:00:45, 00:52:34, Calcium Nitrate), 4 Polyphosphate Speciality Grades, and 9 Oxide WSF Grades.",
     price: "Bulk / Wholesale Supply",
-    image: "/h2-1.webp",
+    image: "/NPK 191919.webp",
     icon: Droplet,
     iconColor: "text-[#469A35]",
     itemCount: "22 Grades",
@@ -750,7 +790,7 @@ const productsData = [
     badge: "14 Formulations",
     desc: "EDTA chelates of Zinc 12%, Iron 12%, Copper 12%, Manganese 12%, Calcium 10%, Magnesium 6%, Boron 20%, EDDHA Fe 6% (pH 9+), and State Grade blends.",
     price: "Bulk / Wholesale Supply",
-    image: "/breadcrumb--1.webp",
+    image: "/EDDHAFerrous.webp",
     icon: FlaskConical,
     iconColor: "text-logo-red",
     itemCount: "14 Chelates",
@@ -762,22 +802,10 @@ const productsData = [
     badge: "4 Formulations",
     desc: "High-density flowable suspensions and technical solutions: Zinc Oxide 39.5% SC, Calcium Oxide 11%, Boron Liquid 11%, and Calcium+Boron (6%+6%).",
     price: "Bulk / Wholesale Supply",
-    image: "/breadcrumb--2.webp",
+    image: "/ZINCOXIDE.webp",
     icon: TestTube,
     iconColor: "text-logo-blue",
     itemCount: "4 Formulations",
-  },
-  {
-    id: 5,
-    name: "Customized & Bulk Allocation",
-    category: "Customized Solutions",
-    badge: "Tailored Sourcing",
-    desc: "Industrial raw material sourcing, bulk contract blending, institutional supply, and custom specifications backed by our wholesale fertilizer license.",
-    price: "Institutional Quote",
-    image: "/indian-farmer-irrigation.webp",
-    icon: Settings,
-    iconColor: "text-logo-red",
-    itemCount: "Custom Blends",
   },
 ];
 
@@ -786,6 +814,62 @@ const getGradeImage = (grade, category) => {
   if (grade.image) return grade.image;
 
   const name = (grade.name || "").toLowerCase();
+
+  // Priority exact matching for Water Soluble Fertilizers from public folder:
+  if (name.includes("19:19:19") || name.includes("191919")) {
+    return "/NPK 191919.webp";
+  }
+  if (name.includes("13:00:45") || name.includes("130045")) {
+    return "/NPK 130045.webp";
+  }
+  if (name.includes("13:40:13") || name.includes("134013")) {
+    return "/NPK 134013.webp";
+  }
+  if (name.includes("12:61:00") || name.includes("126100")) {
+    return "/NPK 126100.webp";
+  }
+  if (name.includes("00:52:34") || name.includes("005234")) {
+    return "/NPK 005234.webp";
+  }
+  if (name.includes("00:00:50") || name.includes("000050")) {
+    return "/NPK 000050.webp";
+  }
+  if (name.includes("calcium nitrate")) {
+    return "/Calcium Nitrate.webp";
+  }
+  if (name.includes("00:42:47") || name.includes("004247")) {
+    return "/004247.webp";
+  }
+  if (name.includes("00:43:56") || name.includes("004356")) {
+    return "/004356.webp";
+  }
+  if (name.includes("00:09:46") || name.includes("000946")) {
+    return "/000946.webp";
+  }
+  if (name.includes("08:00:47") || name.includes("080047")) {
+    return "/080047.webp";
+  }
+  if (name.includes("10:54:10") || name.includes("105410")) {
+    return "/105410.webp";
+  }
+  if (name.includes("00:37:37") || name.includes("003737")) {
+    return "/003737.webp";
+  }
+  if (name.includes("00:48:47") || name.includes("004847")) {
+    return "/004847.webp";
+  }
+  if (name.includes("00:44:29") || name.includes("004429")) {
+    return "/004429.webp";
+  }
+  if (name.includes("30:10:10") || name.includes("301010")) {
+    return "/301010.webp";
+  }
+  if (name.includes("05:55:17") || name.includes("055517")) {
+    return "/055517.webp";
+  }
+  if (name.includes("14:48:00") || name.includes("144800")) {
+    return "/144800.webp";
+  }
 
   // Priority exact matching for PGR Grades from public folder:
   if (name.includes("potassium humate flakes") || (name.includes("humate") && name.includes("flakes"))) {
@@ -843,9 +927,6 @@ const getGradeImage = (grade, category) => {
   if (name.includes("polyphosphate")) {
     return "/h2-2.webp";
   }
-  if (name.includes("19:19:19") || name.includes("13:00:45") || name.includes("00:52:34") || name.includes("calcium nitrate") || name.includes("12:61:00")) {
-    return "/h2-1.webp";
-  }
 
   // Fallbacks by category
   if (category === "PGR Grades") return "/feature-img-01.webp";
@@ -874,9 +955,8 @@ function ExpandableDescription({ text, maxHeight = "max-h-24" }) {
     <div className="space-y-2">
       <div className="relative">
         <div
-          className={`transition-all duration-300 ease-in-out ${
-            isExpanded ? "max-h-[1600px]" : `${maxHeight} overflow-hidden`
-          }`}
+          className={`transition-all duration-300 ease-in-out ${isExpanded ? "max-h-[1600px]" : `${maxHeight} overflow-hidden`
+            }`}
         >
           <p className="text-xs text-gray-600 leading-relaxed whitespace-pre-line">
             {text}
@@ -894,9 +974,8 @@ function ExpandableDescription({ text, maxHeight = "max-h-24" }) {
       >
         <span>{isExpanded ? "Show Less" : "Read More & Specifications"}</span>
         <ChevronDown
-          className={`w-3.5 h-3.5 transition-transform duration-300 text-[#469A35] ${
-            isExpanded ? "rotate-180" : "group-hover/btn:translate-y-0.5"
-          }`}
+          className={`w-3.5 h-3.5 transition-transform duration-300 text-[#469A35] ${isExpanded ? "rotate-180" : "group-hover/btn:translate-y-0.5"
+            }`}
         />
       </button>
     </div>
