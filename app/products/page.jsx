@@ -541,7 +541,7 @@ const categoryDetails = {
       {
         name: "EDTA Ferrous 12%",
         role: "Chlorophyll Synthesis & Electron Transfer",
-        image: "/EDDHAFerrous.webp",
+        image: "/ChelatedFerrous.webp",
         desc: "FEATURES:\n• A water-soluble fertilizer containing 12% iron.\n• The iron is \"chelated\" by EDTA (Ethylene diamine tetra acetic acid), a chemical agent that keeps the iron stable and accessible to plants.\n• The chelating agent makes iron available to plants even in soils with high pH levels, where iron might otherwise become locked up and unavailable.\n• It is commonly used in foliar sprays or soil applications for various crops to support growth, yield, and overall plant health.\n\nCOMPOSITION:\n• Iron Content (expressed as Fe) : 12.0% (% by weight Minimum in the form of Fe-EDTA)\n• pH (5% Solution) : 5.5 – 6.5%\n• Lead (as Pb) % by weight Minimum : 0.003%\n• Cadmium (as Cd) % by weight Maximum : 0.0025%\n• Arsenic (as As) % by weight Maximum : 0.01%\n\nDose: 1 Gram per Liter",
         badge: "EDTA Fe 12%",
         subCategory: "Single Elements (7)",
