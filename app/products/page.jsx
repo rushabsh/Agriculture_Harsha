@@ -716,7 +716,7 @@ const categoryDetails = {
       {
         name: "Calcium Oxide 11%",
         role: "Rapid Foliar Calcium Flowable",
-        image: "/CALCIUMOXIDE.webp",
+        image: "/CalciumOxide1.webp",
         desc: "FEATURES:\n• It is a concentrated, soluble liquid fertilizer with a high concentration of calcium (11%).\n• It provides calcium directly to plants, helping correct deficiencies that restrict active growth.\n• It strengthens plant cell walls, which supports root development and overall plant structure.\n• It can improve the quality of produce and increase its shelf life.\n• It helps plants become more resilient to various stresses.\n\nCOMPOSITION:\n• Calcium Content (expressed as Ca) % by weight Minimum : 11.0%\n• pH (5% Solution) : 9.0-10.1%\n\nDose: 1 Gram per Liter",
         badge: "Liquid 11%",
         subCategory: "Suspension Concentrates & Liquids (4)",

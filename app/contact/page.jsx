@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { MapPin, Phone, Mail, Clock, Send, Sprout } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, Send, Sprout, CheckCircle2, AlertCircle } from "lucide-react";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -16,7 +16,8 @@ export default function ContactPage() {
     message: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState(null); // 'success', 'error', etc.
+  const [submitStatus, setSubmitStatus] = useState(null); // 'success' | 'error' | null
+  const [statusMessage, setStatusMessage] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -26,12 +27,39 @@ export default function ContactPage() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    // Simulate API call
-    setTimeout(() => {
+    setSubmitStatus(null);
+    setStatusMessage("");
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (response.ok && data.success) {
+        setSubmitStatus("success");
+        setStatusMessage(
+          data.message ||
+            "Thank you! Your message has been sent successfully. We will contact you soon."
+        );
+        setFormData({ name: "", email: "", phone: "", subject: "", message: "" });
+      } else {
+        setSubmitStatus("error");
+        setStatusMessage(
+          data.error || "Failed to send message. Please check your details and try again."
+        );
+      }
+    } catch {
+      setSubmitStatus("error");
+      setStatusMessage("A network error occurred. Please check your internet connection and try again.");
+    } finally {
       setIsSubmitting(false);
-      setSubmitStatus("success");
-      setFormData({ name: "", email: "", phone: "", subject: "", message: "" });
-    }, 1500);
+    }
   };
 
   const contactDetails = [
@@ -263,10 +291,18 @@ export default function ContactPage() {
                   </button>
                 </div>
 
-                {/* Submit success alert */}
+                {/* Submit alerts */}
                 {submitStatus === "success" && (
-                  <div className="bg-[#69D34F]/10 border border-[#69D34F]/30 text-[#0D4E22] text-xs font-bold rounded-2xl px-5 py-4 text-center">
-                    Thank you! Your message has been sent successfully. We will contact you soon.
+                  <div className="flex items-start gap-3 bg-[#69D34F]/10 border border-[#69D34F]/30 text-[#0D4E22] text-xs sm:text-sm font-semibold rounded-2xl p-4">
+                    <CheckCircle2 className="w-5 h-5 text-[#469A35] shrink-0 mt-0.5" />
+                    <span>{statusMessage}</span>
+                  </div>
+                )}
+
+                {submitStatus === "error" && (
+                  <div className="flex items-start gap-3 bg-red-50 border border-red-200 text-red-700 text-xs sm:text-sm font-semibold rounded-2xl p-4">
+                    <AlertCircle className="w-5 h-5 text-red-600 shrink-0 mt-0.5" />
+                    <span>{statusMessage}</span>
                   </div>
                 )}
               </form>
