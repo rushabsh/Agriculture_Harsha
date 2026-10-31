@@ -10,6 +10,8 @@ export default function ScrollToTopButton() {
 
   return (
     <button
+      type="button"
+      suppressHydrationWarning
       onClick={scrollToTop}
       className="fixed bottom-4 right-4 md:absolute md:bottom-6 md:right-12 p-3 md:p-3.5 bg-[#fdf6d4] hover:bg-[#faeeb4] text-black rounded-full shadow-lg transition-transform hover:scale-105 active:scale-95 group z-20 cursor-pointer"
       aria-label="Scroll to top"

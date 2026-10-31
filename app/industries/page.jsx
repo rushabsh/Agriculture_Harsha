@@ -2,7 +2,16 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Testimonials from "@/components/Testimonials";
-import { Sprout, ArrowRight, Factory, ShieldCheck, Layers, TestTubeDiagonal, TrendingUp, Truck } from "lucide-react";
+import {
+  Sprout,
+  ArrowRight,
+  Factory,
+  ShieldCheck,
+  Layers,
+  TestTubeDiagonal,
+  TrendingUp,
+  Truck,
+} from "lucide-react";
 import Image from "next/image";
 
 export const metadata = {
@@ -17,7 +26,11 @@ const industries = [
     title: "Fertilizer Manufacturers",
     subtitle: "Bulk Primary Nutrients & Industrial Core Blending",
     desc: "We supply massive volumes of essential macro-nutrient bases like Nitrogen, Phosphorus, and Potassium compounds to major domestic production facilities, ensuring seamless raw material pipelines for Indian agriculture.",
-    highlights: ["High-Volume Macro Ingredients", "Bulk Handling Logistics", "Strict Quality Spec Adherence"],
+    highlights: [
+      "High-Volume Macro Ingredients",
+      "Bulk Handling Logistics",
+      "Strict Quality Spec Adherence",
+    ],
     image: "/maha-farmer-3.avif",
     icon: Factory,
     iconColor: "text-[#0D4E22]",
@@ -27,7 +40,11 @@ const industries = [
     title: "Agrochemical Companies",
     subtitle: "Active Compounds & Stable Base Formulations",
     desc: "Partnering with agrochemical formulation plants across India to source pure tech-grade ingredients, processing agents, and vital additives required for premium crop protection products.",
-    highlights: ["Tech-Grade Chemical Sourcing", "Formulation-Ready Bases", "Batch Consistency Guarantees"],
+    highlights: [
+      "Tech-Grade Chemical Sourcing",
+      "Formulation-Ready Bases",
+      "Batch Consistency Guarantees",
+    ],
     image: "/feature-img-02.webp",
     icon: ShieldCheck,
     iconColor: "text-logo-blue",
@@ -37,7 +54,11 @@ const industries = [
     title: "Contract Manufacturing Units",
     subtitle: "Flexible Sourcing Options for Third-Party Blenders",
     desc: "Providing highly adaptive supply arrangements for job-work and private label blending operations that require fluctuating, responsive input volumes for regional Indian markets.",
-    highlights: ["Just-In-Time Delivery Integration", "Custom Packaging Specifications", "Flexible Minimum Order Quantities"],
+    highlights: [
+      "Just-In-Time Delivery Integration",
+      "Custom Packaging Specifications",
+      "Flexible Minimum Order Quantities",
+    ],
     image: "/feature-img-01.webp",
     icon: Layers,
     iconColor: "text-logo-red",
@@ -47,7 +68,11 @@ const industries = [
     title: "Micronutrient Manufacturers",
     subtitle: "Essential Trace Elements & Chelated Chemical Compounds",
     desc: "Sourcing vital trace elements including Zinc, Boron, Iron, and Manganese derivatives required for the production of advanced specialty nutrition systems for Indian crops.",
-    highlights: ["Chelated Element Precursors", "High Solubility Profiles", "Advanced Purity Testing Matrix"],
+    highlights: [
+      "Chelated Element Precursors",
+      "High Solubility Profiles",
+      "Advanced Purity Testing Matrix",
+    ],
     image: "/indian-farmer-irrigation.webp",
     icon: TestTubeDiagonal,
     iconColor: "text-logo-blue",
@@ -57,8 +82,12 @@ const industries = [
     title: "Traders and Distributors",
     subtitle: "B2B Wholesale Portfolios & Merchant Distribution Networks",
     desc: "Fueling regional distribution lines across Indian states with stable pricing, reliable bulk allocations, and verified testing certifications.",
-    highlights: ["Transparent Tiered Pricing", "Verified Lab Testing Sheets", "Regional Multi-Hub Distribution"],
-    image: "/h2-1 (1).webp",
+    highlights: [
+      "Transparent Tiered Pricing",
+      "Verified Lab Testing Sheets",
+      "Regional Multi-Hub Distribution",
+    ],
+    image: "/maha-farmer-1.avif",
     icon: TrendingUp,
     iconColor: "text-[#0D4E22]",
   },
@@ -67,7 +96,11 @@ const industries = [
     title: "Agricultural Input Companies",
     subtitle: "Complete Portfolio Sourcing for Field Retail Networks",
     desc: "Helping multi-product crop input brands diversify their retail shelf catalog by delivering ready-to-process or premium raw materials for Indian farmers.",
-    highlights: ["Diverse Ingredient Catalog", "Year-Round Freight Allocation", "Scalable Seasonal Sourcing Plans"],
+    highlights: [
+      "Diverse Ingredient Catalog",
+      "Year-Round Freight Allocation",
+      "Scalable Seasonal Sourcing Plans",
+    ],
     image: "/maha-farmer-4.avif",
     icon: Truck,
     iconColor: "text-logo-red",
@@ -98,10 +131,13 @@ export default function IndustriesPage() {
             Industries We Serve
           </h1>
           <p className="text-gray-200 text-sm md:text-base font-medium max-w-xl mx-auto">
-            From large commercial growers to research organizations, we deliver targeted agricultural inputs.
+            From large commercial growers to research organizations, we deliver
+            targeted agricultural inputs.
           </p>
           <div className="flex items-center justify-center gap-2 text-xs md:text-sm font-semibold text-white/90 pt-2">
-            <Link href="/" className="hover:text-[#69D34F] transition-colors">Home</Link>
+            <Link href="/" className="hover:text-[#69D34F] transition-colors">
+              Home
+            </Link>
             <span className="text-white/40">/</span>
             <span className="text-[#69D34F]">Industries</span>
           </div>
@@ -111,7 +147,6 @@ export default function IndustriesPage() {
       {/* Main Content Asymmetric Grid List */}
       <main className="flex-1 bg-white py-16 md:py-24 px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div className="max-w-7xl mx-auto space-y-24 md:space-y-36">
-
           {/* Introductory Heading */}
           <div className="text-center max-w-2xl mx-auto space-y-4">
             <div className="flex items-center justify-center gap-2 text-[#469A35] font-bold text-xs uppercase tracking-wider">
@@ -122,7 +157,9 @@ export default function IndustriesPage() {
               Tailored Farming Solutions For Every Enterprise
             </h2>
             <p className="text-sm sm:text-base text-gray-500 font-medium leading-relaxed">
-              We understand that different sectors require distinct operational scales, regulations, and technologies. Discover how we empower each industry.
+              We understand that different sectors require distinct operational
+              scales, regulations, and technologies. Discover how we empower
+              each industry.
             </p>
           </div>
 
@@ -138,8 +175,9 @@ export default function IndustriesPage() {
                 >
                   {/* Image Block: Dynamic Order based on Index */}
                   <div
-                    className={`lg:col-span-6 flex justify-center ${isEven ? "lg:order-1" : "lg:order-2"
-                      }`}
+                    className={`lg:col-span-6 flex justify-center ${
+                      isEven ? "lg:order-1" : "lg:order-2"
+                    }`}
                   >
                     <div className="w-full aspect-[4/3] max-w-[560px] relative rounded-[28px] overflow-hidden shadow-md group">
                       <Image
@@ -154,12 +192,15 @@ export default function IndustriesPage() {
 
                   {/* Text Details Block */}
                   <div
-                    className={`lg:col-span-6 space-y-6 text-left flex flex-col justify-center ${isEven ? "lg:order-2" : "lg:order-1"
-                      }`}
+                    className={`lg:col-span-6 space-y-6 text-left flex flex-col justify-center ${
+                      isEven ? "lg:order-2" : "lg:order-1"
+                    }`}
                   >
                     {/* Badge Icon Header */}
                     <div className="flex items-center gap-3">
-                      <div className={`w-12 h-12 bg-[#FAF8F2] border border-gray-100 rounded-2xl flex items-center justify-center shadow-xs ${ind.iconColor || "text-[#0D4E22]"}`}>
+                      <div
+                        className={`w-12 h-12 bg-[#FAF8F2] border border-gray-100 rounded-2xl flex items-center justify-center shadow-xs ${ind.iconColor || "text-[#0D4E22]"}`}
+                      >
                         <IconComp className="w-6 h-6 stroke-[1.5]" />
                       </div>
                       <div className="space-y-0.5">
@@ -207,7 +248,6 @@ export default function IndustriesPage() {
               );
             })}
           </div>
-
         </div>
       </main>
 

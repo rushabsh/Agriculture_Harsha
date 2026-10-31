@@ -69,6 +69,8 @@ export default function Testimonials() {
           {/* Interactive Control Sliders */}
           <div className="flex items-center gap-3 self-end sm:self-auto shrink-0">
             <button
+              type="button"
+              suppressHydrationWarning
               onClick={() => scroll('left')}
               className="w-10 h-10 rounded-full bg-[#5BC242] text-white flex items-center justify-center hover:bg-[#4ba834] transition-colors shadow-xs cursor-pointer"
               aria-label="Slide Left"
@@ -76,6 +78,8 @@ export default function Testimonials() {
               <ArrowLeft className="w-4 h-4" />
             </button>
             <button
+              type="button"
+              suppressHydrationWarning
               onClick={() => scroll('right')}
               className="w-10 h-10 rounded-full bg-[#5BC242] text-white flex items-center justify-center hover:bg-[#4ba834] transition-colors shadow-xs cursor-pointer"
               aria-label="Slide Right"

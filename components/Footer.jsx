@@ -108,6 +108,7 @@ export default function Footer() {
                 <div className="relative border-b border-white/30 pb-2 flex items-center justify-between group focus-within:border-[#fdf6d4] transition-colors">
                   <input
                     type="email"
+                    suppressHydrationWarning
                     placeholder="Get news & updates"
                     aria-label="Email address for news and updates"
                     className="bg-transparent text-white placeholder-white/60 focus:outline-none w-full text-sm pr-4 font-medium"

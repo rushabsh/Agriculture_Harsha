@@ -71,6 +71,8 @@ export default function Navbar() {
 
               {/* Mobile Menu Icon Toggle */}
               <button
+                type="button"
+                suppressHydrationWarning
                 onClick={() => setIsMobileMenuOpen(true)}
                 className="p-2 lg:hidden text-gray-700 hover:text-black rounded-full hover:bg-[#F8F6F2] transition-colors"
                 aria-label="Toggle Menu"
@@ -115,6 +117,8 @@ export default function Navbar() {
                   className="object-contain"
                 />
                 <button
+                  type="button"
+                  suppressHydrationWarning
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="p-2 text-gray-500 hover:text-black rounded-full hover:bg-gray-100 transition-colors"
                   aria-label="Close Menu"

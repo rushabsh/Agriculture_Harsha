@@ -73,6 +73,8 @@ export default function Services() {
           {/* Navigation Action Arrow Buttons */}
           <div className="flex items-center gap-3 self-end sm:self-auto">
             <button
+              type="button"
+              suppressHydrationWarning
               onClick={() => scroll('left')}
               className="w-10 h-10 rounded-full bg-[#5BC242] text-white flex items-center justify-center hover:bg-[#4ba834] transition-colors shadow-xs"
               aria-label="Scroll Left"
@@ -80,6 +82,8 @@ export default function Services() {
               <ArrowLeft className="w-4 h-4" />
             </button>
             <button
+              type="button"
+              suppressHydrationWarning
               onClick={() => scroll('right')}
               className="w-10 h-10 rounded-full bg-[#5BC242] text-white flex items-center justify-center hover:bg-[#4ba834] transition-colors shadow-xs"
               aria-label="Scroll Right"

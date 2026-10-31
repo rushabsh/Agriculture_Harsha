@@ -86,6 +86,8 @@ export default function WhyChooseUs() {
                 >
                   {/* Interactive Button Bar Header */}
                   <button
+                    type="button"
+                    suppressHydrationWarning
                     onClick={() => setActiveId(p.id)}
                     className="w-full px-6 py-4.5 flex items-center justify-between text-left cursor-pointer focus:outline-none group"
                   >
