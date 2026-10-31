@@ -310,29 +310,55 @@ export default function ContactPage() {
 
           </div>
 
-          {/* Bottom Area: Styled Map Box */}
-          <div className="w-full bg-[#0D4E22] rounded-[32px] overflow-hidden p-6 sm:p-10 border border-[#0D4E22] shadow-xl relative aspect-[16/6] min-h-[300px] flex items-center justify-center text-white text-center">
-            {/* Geometric stylized grid overlay to simulate map coordinates */}
-            <div className="absolute inset-0 opacity-10 bg-[linear-gradient(to_right,#fff_1px,transparent_1px),linear-gradient(to_bottom,#fff_1px,transparent_1px)] bg-[size:4rem_4rem]" />
-            <div className="absolute w-[300px] h-[300px] bg-[#69D34F]/20 rounded-full blur-[80px]" />
+          {/* Bottom Area: Live Interactive Google Map */}
+          <div className="w-full rounded-[32px] overflow-hidden border border-gray-200/80 shadow-xl bg-white relative">
+            {/* Map Container */}
+            <div className="relative w-full h-[400px] sm:h-[460px] md:h-[500px]">
+              <iframe
+                title="GreenGlobe Headquarters Location Map"
+                src="https://maps.google.com/maps?q=18.5993,73.7625&hl=en&z=16&output=embed"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="w-full h-full"
+              />
 
-            <div className="relative z-10 max-w-md space-y-4">
-              <MapPin className="w-12 h-12 text-[#FFF3A3] mx-auto animate-bounce shrink-0" />
-              <h3 className="text-xl sm:text-2xl font-bold tracking-tight font-serif text-[#FDF0B4]">
-                Visit Our Headquarters
-              </h3>
-              <p className="text-xs sm:text-sm text-white/80 font-medium leading-relaxed">
-                D-503, Pristine Pronext, Survey no-190, Wakad, Pune, Maharashtra 411057
-              </p>
-              <div className="pt-2">
-                <a
-                  href="https://maps.google.com/?q=Pristine+Pronext+Wakad+Pune"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-[#5BC242] hover:bg-[#4ba834] text-white font-bold rounded-xl text-xs uppercase tracking-wider transition-colors shadow-xs"
-                >
-                  Open in Google Maps
-                </a>
+              {/* Floating Location Card Overlay */}
+              <div className="absolute top-4 left-4 sm:top-6 sm:left-6 max-w-[340px] sm:max-w-[380px] bg-white/95 backdrop-blur-md p-5 sm:p-6 rounded-2xl shadow-[0_12px_40px_rgba(0,0,0,0.15)] border border-gray-100/90 z-10">
+                <div className="flex items-start gap-3">
+                  <div className="w-10 h-10 rounded-xl bg-[#0D4E22] text-[#FDF0B4] flex items-center justify-center shrink-0 shadow-xs">
+                    <MapPin className="w-5 h-5 text-[#FDF0B4]" />
+                  </div>
+                  <div>
+                    <span className="inline-block text-[10px] font-bold uppercase tracking-wider text-[#469A35] bg-[#5BC242]/10 px-2 py-0.5 rounded-md mb-1">
+                      Corporate Headquarters
+                    </span>
+                    <h3 className="text-base sm:text-lg font-bold text-gray-900 leading-tight">
+                      GreenGlobe Agrochemical
+                    </h3>
+                  </div>
+                </div>
+
+                <p className="text-xs sm:text-[13px] text-gray-600 font-medium leading-relaxed mt-3">
+                  D-503, Pristine Pronext, Survey no-190, Wakad, Pune, Maharashtra 411057
+                </p>
+
+                <div className="mt-4 pt-3 border-t border-gray-100 flex items-center gap-2">
+                  <a
+                    href="https://maps.google.com/?q=Pristine+Pronext+Wakad+Pune"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-[#5BC242] hover:bg-[#4ba834] text-white font-bold rounded-xl text-xs uppercase tracking-wider transition-colors shadow-xs"
+                  >
+                    <span>Get Directions</span>
+                    <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                    </svg>
+                  </a>
+                </div>
               </div>
             </div>
           </div>

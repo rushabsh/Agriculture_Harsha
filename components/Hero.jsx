@@ -9,18 +9,19 @@ export default function Hero() {
       <div className="gap-3 relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center">
 
         {/* Main Heading */}
-        <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-[80px] font-normal text-[#27272a] tracking-tight leading-[1.08] max-w-4xl">
+        <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-[80px] font-normal text-[#27272a] tracking-tight leading-[1.08] max-w-4xl animate-[websitePageFadeIn_0.8s_cubic-bezier(0.16,1,0.3,1)_forwards]">
           Empowering Modern <br className="hidden sm:inline" /> Farming
         </h1>
 
         {/* Subtitle */}
-        <p className="text-base sm:text-lg text-[#61616b] max-w-2xl font-normal leading-relaxed text-center">
-          We import and supply high-quality agricultural fertilizers in bulk, providing reliable, cost-effective solutions to farmers, distributors, retailers, and agribusinesses for improved crop growth and productivity.        </p>
+        <p className="text-base sm:text-lg text-[#61616b] max-w-2xl font-normal leading-relaxed text-center animate-[websitePageFadeIn_0.9s_cubic-bezier(0.16,1,0.3,1)_0.15s_both]">
+          We import and supply high-quality agricultural fertilizers in bulk, providing reliable, cost-effective solutions to farmers, distributors, retailers, and agribusinesses for improved crop growth and productivity.
+        </p>
 
         {/* Action CTA Buttons */}
         <Link
           href="/contact"
-          className="inline-flex items-center gap-2 pt-2 group cursor-pointer"
+          className="inline-flex items-center gap-2 pt-2 group cursor-pointer animate-[websitePageFadeIn_0.9s_cubic-bezier(0.16,1,0.3,1)_0.25s_both]"
         >
           <span className="inline-flex items-center justify-center px-6 py-3.5 bg-[#5BC242] group-hover:bg-[#4ba834] text-white font-bold rounded-xl text-sm transition-colors shadow-xs">
             LEARN MORE
